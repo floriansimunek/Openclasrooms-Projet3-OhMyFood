@@ -55,3 +55,22 @@ header {
         width: 100%;
     }
 }
+
+/* FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: $default-background-color;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    #left-block,
+    #right-block {
+        color: $default-font-color;
+        font-size: 20px;
+        font-family: 'Archivo', sans-serif;
+        text-decoration: none;
+        margin: 15px 10px;
+    }
+}

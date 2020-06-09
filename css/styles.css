@@ -49,4 +49,22 @@ header #logo {
   width: 100%;
 }
 
+/* FOOTER */
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #579c87;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+footer #left-block,
+footer #right-block {
+  color: #fdcc46;
+  font-size: 20px;
+  font-family: "Archivo", sans-serif;
+  text-decoration: none;
+  margin: 15px 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
