@@ -32,6 +32,9 @@ header {
         text-decoration: none;
         text-align: center;
         margin-bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         &:hover {
             background-color: $buttons-color-hover;
