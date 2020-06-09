@@ -1,0 +1,18 @@
+@import "Utils/variables";
+
+/* ALL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background-color: $default-background-color;
+    display: flex;
+
+    #logo {
+        max-width: 40%;
+        margin: 20px auto;
+    }
+}
