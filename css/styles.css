@@ -14,4 +14,39 @@ header #logo {
   margin: 20px auto;
 }
 
+/* CONTENT */
+#app-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px;
+}
+#app-content .btn {
+  background-color: #fff5fe;
+  width: 45%;
+  min-height: 30vh;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10%;
+}
+#app-content .btn:hover {
+  background-color: #fcdfdb;
+}
+#app-content .btn--green {
+  background-color: #579c87;
+  color: #fdcc46;
+  font-family: "Archivo", sans-serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  text-decoration: none;
+  font-size: 25px;
+}
+#app-content #btn-container {
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
