@@ -63,15 +63,16 @@ header #logo {
   font-family: "Kaushan Script";
   color: black;
 }
-#app-content .btn-block--menu1 {
-  font-size: 24px;
-}
 #app-content .btn-block--2 {
   font-family: "Signika";
   font-size: 14px;
   color: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
 }
-#app-content .btn-block--menu2 {
+#app-content .btn-block--3 {
+  font-family: "Dancing Script";
+  color: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
+}
+#app-content .btn-block--menu {
   font-size: 24px;
 }
 

@@ -72,17 +72,18 @@ header {
             color: black;
         }
 
-        &--menu1 {
-            font-size: 24px;
-        }
-
         &--2 {
             font-family: 'Signika';
             font-size: 14px;
             color: $btn-block--2-text;
         }
 
-        &--menu2 {
+        &--3 {
+            font-family: 'Dancing Script';
+            color: $btn-block--3-text;
+        }
+
+        &--menu {
             font-size: 24px;
         }
     }
