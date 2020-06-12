@@ -149,13 +149,17 @@ footer {
             }
         }
 
-        #prelude {
+        #prelude,
+        #point-orgue,
+        #mouvement-final {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-top: 20px;
 
-            .prelude-block {
+            .prelude-block,
+            .pointorgue-block,
+            .mouvementfinal-block {
                 display: flex;
                 margin-top: 10px;
             }
