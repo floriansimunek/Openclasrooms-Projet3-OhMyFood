@@ -112,7 +112,6 @@ footer #right-block {
 #page-content #menu {
   background-color: #fcdfdb;
   width: 85%;
-  min-height: 75vh;
   margin: 10px auto;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
   display: flex;
