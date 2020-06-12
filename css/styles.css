@@ -72,6 +72,10 @@ header #logo {
   font-family: "Dancing Script";
   color: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
 }
+#app-content .btn-block--4 {
+  font-family: "Indie Flower";
+  color: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
+}
 #app-content .btn-block--menu {
   font-size: 24px;
 }
