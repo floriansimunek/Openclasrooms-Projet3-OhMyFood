@@ -130,35 +130,36 @@ footer #right-block {
   font-size: 50px;
   color: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
 }
-#page-content #menu #prelude,
-#page-content #menu #point-orgue,
-#page-content #menu #mouvement-final {
+
+#prelude,
+#point-orgue,
+#mouvement-final {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
 }
-#page-content #menu #prelude .prelude-block,
-#page-content #menu #prelude .pointorgue-block,
-#page-content #menu #prelude .mouvementfinal-block,
-#page-content #menu #point-orgue .prelude-block,
-#page-content #menu #point-orgue .pointorgue-block,
-#page-content #menu #point-orgue .mouvementfinal-block,
-#page-content #menu #mouvement-final .prelude-block,
-#page-content #menu #mouvement-final .pointorgue-block,
-#page-content #menu #mouvement-final .mouvementfinal-block {
+#prelude .prelude-block,
+#prelude .pointorgue-block,
+#prelude .mouvementfinal-block,
+#point-orgue .prelude-block,
+#point-orgue .pointorgue-block,
+#point-orgue .mouvementfinal-block,
+#mouvement-final .prelude-block,
+#mouvement-final .pointorgue-block,
+#mouvement-final .mouvementfinal-block {
   display: flex;
   margin-top: 10px;
 }
-#page-content #menu #prelude .left-block,
-#page-content #menu #point-orgue .left-block,
-#page-content #menu #mouvement-final .left-block {
+#prelude .left-block,
+#point-orgue .left-block,
+#mouvement-final .left-block {
   width: 85%;
   margin: 0 5px;
 }
-#page-content #menu #prelude .right-block,
-#page-content #menu #point-orgue .right-block,
-#page-content #menu #mouvement-final .right-block {
+#prelude .right-block,
+#point-orgue .right-block,
+#mouvement-final .right-block {
   width: 10%;
 }
 
