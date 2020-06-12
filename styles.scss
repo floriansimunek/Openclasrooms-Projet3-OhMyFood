@@ -58,7 +58,6 @@ header {
 
         .fa-music {
             font-size: 35px;
-            color: $btn-block--1-icon-color;
             color: $btn-block--1-icon-gradient-color;
         }
     }
@@ -74,6 +73,16 @@ header {
         }
 
         &--menu1 {
+            font-size: 24px;
+        }
+
+        &--2 {
+            font-family: 'Signika';
+            font-size: 14px;
+            color: $btn-block--2-text;
+        }
+
+        &--menu2 {
             font-size: 24px;
         }
     }

@@ -1,4 +1,5 @@
 /* icons */
+/* btn texts */
 /* ALL */
 * {
   margin: 0;
@@ -53,7 +54,6 @@ header #logo {
 }
 #app-content .btn .fa-music {
   font-size: 35px;
-  color: #f04a5e;
   color: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
 }
 #app-content #btn-container {
@@ -64,6 +64,14 @@ header #logo {
   color: black;
 }
 #app-content .btn-block--menu1 {
+  font-size: 24px;
+}
+#app-content .btn-block--2 {
+  font-family: "Signika";
+  font-size: 14px;
+  color: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
+}
+#app-content .btn-block--menu2 {
   font-size: 24px;
 }
 
