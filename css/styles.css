@@ -180,6 +180,14 @@ footer #right-block {
 #point-orgue-title,
 #mouvement-final-title {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#prelude-title .title-lines,
+#point-orgue-title .title-lines,
+#mouvement-final-title .title-lines {
+  transform: scale(0.6, 0.6);
 }
 #prelude .prelude-block,
 #prelude .pointorgue-block,

@@ -198,6 +198,13 @@ footer {
 
     &-title {
         text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .title-lines {
+            transform: scale(0.6, 0.6);
+        }
     }
 
     .prelude-block,
