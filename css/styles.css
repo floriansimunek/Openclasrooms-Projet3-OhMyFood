@@ -1,3 +1,4 @@
+/* color */
 /* icons */
 /* btn texts */
 /* ALL */
@@ -61,28 +62,42 @@ header #logo {
 }
 #app-content .btn-block--1 {
   font-family: "Kaushan Script";
-  color: black;
+}
+#app-content .btn-block--1 .fa-music {
+  background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #app-content .btn-block--2 {
   font-family: "Signika";
   font-size: 14px;
-  color: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
+  background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #app-content .btn-block--3 {
   font-family: "Dancing Script";
-  color: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
+  background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #app-content .btn-block--4 {
   font-family: "Indie Flower";
-  color: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
+  background: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#app-content .btn-block--text {
+  color: black;
 }
 #app-content .btn-block--menu {
+  color: black;
   font-size: 24px;
 }
 
 /* FOOTER */
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #579c87;
   display: flex;
@@ -102,6 +117,7 @@ footer #right-block {
 #page-content {
   display: flex;
   flex-direction: column;
+  padding-bottom: 100px;
 }
 #page-content .menu-title {
   margin: 0 auto;
@@ -111,12 +127,20 @@ footer #right-block {
 }
 #page-content #menu {
   background-color: #fcdfdb;
-  width: 85%;
+  max-width: 100%;
   margin: 10px auto;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
   display: flex;
   flex-direction: column;
   font-family: "Kaushan Script";
+  padding: 0 30px;
+}
+@media screen and (max-width: 500px) {
+  #page-content #menu {
+    margin: 0 15px;
+    padding: 0 15px;
+    font-size: 12px;
+  }
 }
 #page-content #menu .menu-title--in {
   margin: 0 auto;
@@ -136,8 +160,12 @@ footer #right-block {
 #mouvement-final {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 20px;
+}
+#prelude-title,
+#point-orgue-title,
+#mouvement-final-title {
+  text-align: center;
 }
 #prelude .prelude-block,
 #prelude .pointorgue-block,
@@ -150,11 +178,11 @@ footer #right-block {
 #mouvement-final .mouvementfinal-block {
   display: flex;
   margin-top: 10px;
+  justify-content: space-between;
 }
 #prelude .left-block,
 #point-orgue .left-block,
 #mouvement-final .left-block {
-  width: 85%;
   margin: 0 5px;
 }
 #prelude .right-block,
@@ -162,5 +190,7 @@ footer #right-block {
 #mouvement-final .right-block {
   width: 10%;
 }
+
+/* menu2.html */
 
 /*# sourceMappingURL=styles.css.map */
