@@ -246,3 +246,43 @@ header {
 }
 
 /* menu2.html */
+#appetite,
+#pleasure,
+#delicacies {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    &-title {
+        text-align: center;
+        min-width: 15%;
+
+    }
+
+    .section-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .title-lines {
+            transform: scale(0.6, 0.6);
+        }
+    }
+
+    .appetite-block,
+    .pleasure-block,
+    .delicacies-block {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    .left-block {
+        margin: 0 5px;
+    }
+
+    .right-block {
+        width: 10%;
+    }
+}

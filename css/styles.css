@@ -232,5 +232,54 @@ header a #logo {
 }
 
 /* menu2.html */
+#appetite,
+#pleasure,
+#delicacies {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+#appetite-title,
+#pleasure-title,
+#delicacies-title {
+  text-align: center;
+  min-width: 15%;
+}
+#appetite .section-title,
+#pleasure .section-title,
+#delicacies .section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#appetite .section-title .title-lines,
+#pleasure .section-title .title-lines,
+#delicacies .section-title .title-lines {
+  transform: scale(0.6, 0.6);
+}
+#appetite .appetite-block,
+#appetite .pleasure-block,
+#appetite .delicacies-block,
+#pleasure .appetite-block,
+#pleasure .pleasure-block,
+#pleasure .delicacies-block,
+#delicacies .appetite-block,
+#delicacies .pleasure-block,
+#delicacies .delicacies-block {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+#appetite .left-block,
+#pleasure .left-block,
+#delicacies .left-block {
+  margin: 0 5px;
+}
+#appetite .right-block,
+#pleasure .right-block,
+#delicacies .right-block {
+  width: 10%;
+}
 
 /*# sourceMappingURL=styles.css.map */
