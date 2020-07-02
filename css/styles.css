@@ -115,6 +115,9 @@ header {
   background-color: #579c87;
   display: flex;
 }
+header a {
+  display: flex;
+}
 header a #logo {
   max-width: 40%;
   margin: 20px auto;

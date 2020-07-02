@@ -15,6 +15,7 @@ header {
         max-width: 40%;
         margin: 20px auto;
     }
+
 }
 
 /* CONTENT */
@@ -131,6 +132,8 @@ header {
     display: flex;
 
     a {
+        display: flex;
+
         #logo {
             max-width: 40%;
             margin: 20px auto;
