@@ -134,6 +134,36 @@ header a #logo {
   font-size: 20px;
   text-shadow: 1px 1px 2px lightgray;
 }
+#page-content .menu-title--in {
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#page-content .menu-title--in--bis {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#page-content .menu-title--in--bis .fa-music {
+  font-size: 30px;
+  margin-right: 5px;
+  background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#page-content .menu-title--in .fa-music {
+  font-size: 50px;
+  background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #page-content #menu {
   background-color: #fcdfdb;
   max-width: 100%;
@@ -149,36 +179,6 @@ header a #logo {
     padding: 0 15px;
     font-size: 12px;
   }
-}
-#page-content #menu .menu-title--in {
-  margin: 0 auto;
-  margin-top: 30px;
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#page-content #menu .menu-title--in--bis {
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  font-size: 18px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-#page-content #menu .menu-title--in--bis .fa-music {
-  font-size: 30px;
-  margin-right: 5px;
-  background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-#page-content #menu .menu-title--in .fa-music {
-  font-size: 50px;
-  background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 #prelude,
@@ -232,6 +232,47 @@ header a #logo {
 }
 
 /* menu2.html */
+#page-content2 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+#page-content2 .menu-title {
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px lightgray;
+}
+#page-content2 .menu-title--in {
+  background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#page-content2 #menu {
+  background-color: #fcdfdb;
+  max-width: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  font-family: "Kaushan Script";
+  padding: 0 30px;
+}
+@media screen and (max-width: 500px) {
+  #page-content2 #menu {
+    margin: 0 15px;
+    padding: 0 15px;
+    font-size: 12px;
+  }
+}
+#page-content2 #menu .menu-title--in {
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #appetite,
 #pleasure,
 #delicacies {
