@@ -201,6 +201,10 @@ header a #logo {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  background-image: url("../images/lines/menu1-line.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #prelude .section-title .title-lines,
 #point-orgue .section-title .title-lines,
