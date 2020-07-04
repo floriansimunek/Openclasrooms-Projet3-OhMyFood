@@ -196,6 +196,10 @@ header {
         font-family: 'Kaushan Script';
         padding: 0 30px;
 
+        @media screen and (max-width: 769px) {
+            margin: 0 70px;
+        }
+
         @media screen and (max-width: 500px) {
             margin: 0 15px;
             padding: 0 15px;
@@ -210,6 +214,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    margin-bottom: 20px;
 
     &-title {
         text-align: center;

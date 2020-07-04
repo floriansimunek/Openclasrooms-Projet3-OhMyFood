@@ -173,6 +173,11 @@ header a #logo {
   font-family: "Kaushan Script";
   padding: 0 30px;
 }
+@media screen and (max-width: 769px) {
+  #page-content #menu {
+    margin: 0 70px;
+  }
+}
 @media screen and (max-width: 500px) {
   #page-content #menu {
     margin: 0 15px;
@@ -187,6 +192,7 @@ header a #logo {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 #prelude-title,
 #point-orgue-title,
