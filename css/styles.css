@@ -62,16 +62,6 @@ header #logo {
   justify-content: space-between;
   width: 60px;
 }
-@keyframes flow {
-  from {
-    opacity: 1;
-    transform: scale(1.2);
-  }
-  to {
-    opacity: 0.2;
-    transform: scale(0.75);
-  }
-}
 #app-content .btn--green .dot-container .dot {
   width: 16px;
   height: 16px;
@@ -86,6 +76,16 @@ header #logo {
 }
 #app-content .btn--green .dot-container .dot--3 {
   animation: flow 0.4s ease 0.4s infinite alternate;
+}
+@keyframes flow {
+  from {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  to {
+    opacity: 0.2;
+    transform: scale(0.75);
+  }
 }
 @media screen and (max-width: 1920px) {
   #app-content .btn--green {
@@ -151,6 +151,27 @@ footer #right-block {
   font-family: "Archivo", sans-serif;
   text-decoration: none;
   margin: 15px 10px;
+}
+footer #left-block:hover,
+footer #right-block:hover {
+  animation: shake 0.3s infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  25% {
+    transform: translate(1px, 1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, -1px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(2px, 1px) rotate(2px);
+  }
+  100% {
+    transform: translate(-1px, 1px) rotate(-1deg);
+  }
 }
 
 /* menu1.html */
