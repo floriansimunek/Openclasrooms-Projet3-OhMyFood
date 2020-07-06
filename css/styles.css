@@ -212,11 +212,6 @@ header a #logo {
   background-size: contain;
   background-position: center;
 }
-#prelude .section-title .title-lines,
-#point-orgue .section-title .title-lines,
-#mouvement-final .section-title .title-lines {
-  transform: scale(0.6, 0.6);
-}
 #prelude .prelude-block,
 #prelude .pointorgue-block,
 #prelude .mouvementfinal-block,
@@ -259,12 +254,12 @@ header a #logo {
   -webkit-text-fill-color: transparent;
 }
 #page-content2 #menu {
-  background-color: #fcdfdb;
+  background-color: #fff5fe;
   max-width: 100%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
   display: flex;
   flex-direction: column;
-  font-family: "Kaushan Script";
+  font-family: "Signika";
   padding: 0 30px;
 }
 @media screen and (max-width: 500px) {
@@ -289,6 +284,7 @@ header a #logo {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 #appetite-title,
 #pleasure-title,
@@ -304,10 +300,41 @@ header a #logo {
   align-items: center;
   justify-content: center;
 }
-#appetite .section-title .title-lines,
-#pleasure .section-title .title-lines,
-#delicacies .section-title .title-lines {
-  transform: scale(0.6, 0.6);
+#appetite .section-title--1,
+#pleasure .section-title--1,
+#delicacies .section-title--1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/lines/menu2-line1.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#appetite .section-title--2,
+#pleasure .section-title--2,
+#delicacies .section-title--2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/lines/menu2-line2.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#appetite .section-title--3,
+#pleasure .section-title--3,
+#delicacies .section-title--3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/lines/menu2-line3.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #appetite .appetite-block,
 #appetite .pleasure-block,
@@ -332,5 +359,19 @@ header a #logo {
 #delicacies .right-block {
   width: 10%;
 }
+
+#appetite {
+  color: #c67412;
+}
+
+#pleasure {
+  color: #a56799;
+}
+
+#delicacies {
+  color: #6e4ccc;
+}
+
+/* menu3.html */
 
 /*# sourceMappingURL=styles.css.map */
