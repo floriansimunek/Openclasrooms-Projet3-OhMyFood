@@ -264,6 +264,22 @@ header a #logo {
   text-align: center;
   min-width: 15%;
 }
+#prelude-title::after,
+#point-orgue-title::after,
+#mouvement-final-title::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.3s;
+}
+#prelude-title:hover::after,
+#point-orgue-title:hover::after,
+#mouvement-final-title:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
 #prelude .section-title,
 #point-orgue .section-title,
 #mouvement-final .section-title {
