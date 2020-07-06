@@ -469,8 +469,8 @@ header {
     }
 }
 
-/* menu3.html */
-#page-content3 {
+/* menu4.html */
+#page-content4 {
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
@@ -482,19 +482,19 @@ header {
         text-shadow: 1px 1px 2px lightgray;
 
         &--in {
-            background: $btn-block--3-text;
+            background: $btn-block--4-text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
     }
 
     #menu {
-        background-color: rgb(237, 239, 239);
+        background-color: rgb(253, 255, 253);
         max-width: 100%;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
         display: flex;
         flex-direction: column;
-        font-family: 'Dancing Script';
+        font-family: 'Indie Flower';
         padding: 0 30px;
 
         @media screen and (max-width: 500px) {
@@ -515,9 +515,9 @@ header {
     }
 }
 
-#tostart,
-#tocontinue,
-#tofinish {
+#esquisse,
+#oeuvre,
+#art {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -537,15 +537,15 @@ header {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-image: url('../images/lines/menu3-line.PNG');
+        background-image: url('../images/lines/menu4-line.PNG');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
     }
 
-    .tostart-block,
-    .tocontinue-block,
-    .tofinish-block {
+    .esquisse-block,
+    .oeuvre-block,
+    .art-block {
         display: flex;
         margin-top: 10px;
         justify-content: space-between;
