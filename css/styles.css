@@ -37,9 +37,12 @@ header #logo {
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+  transition: transform 450ms, background-color 300ms 150ms, color 300ms 150ms;
 }
 #app-content .btn:hover {
-  background-color: #fcdfdb;
+  transform: scale(1.1);
+  color: white;
+  background-color: blue;
 }
 #app-content .btn--green {
   background-color: #579c87;
@@ -53,6 +56,42 @@ header #logo {
   text-decoration: none;
   font-size: 20px;
 }
+#app-content .btn--green .dot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60px;
+}
+@keyframes flow {
+  from {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  to {
+    opacity: 0.2;
+    transform: scale(0.75);
+  }
+}
+#app-content .btn--green .dot-container .dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fdcc46;
+}
+#app-content .btn--green .dot-container .dot--1 {
+  animation: flow 0.4s ease 0s infinite alternate;
+}
+#app-content .btn--green .dot-container .dot--2 {
+  animation: flow 0.4s ease 0.2s infinite alternate;
+}
+#app-content .btn--green .dot-container .dot--3 {
+  animation: flow 0.4s ease 0.4s infinite alternate;
+}
+@media screen and (max-width: 1920px) {
+  #app-content .btn--green {
+    margin-top: -150px;
+  }
+}
 #app-content #btn-container {
   width: 100%;
 }
@@ -64,6 +103,7 @@ header #logo {
   background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: #fcdfdb;
 }
 #app-content .btn-block--2 {
   font-family: "Signika";
@@ -71,18 +111,21 @@ header #logo {
   background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: #fff5fe;
 }
 #app-content .btn-block--3 {
   font-family: "Dancing Script";
   background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: #edefef;
 }
 #app-content .btn-block--4 {
   font-family: "Indie Flower";
   background: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: #fdfffd;
 }
 #app-content .btn-block--text {
   color: black;

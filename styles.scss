@@ -38,10 +38,14 @@ header {
         align-items: center;
         justify-content: center;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-
+        transition: transform 450ms,
+            background-color 300ms 150ms,
+            color 300ms 150ms;
 
         &:hover {
-            background-color: $buttons-color-hover;
+            transform: scale(1.10);
+            color: white;
+            background-color: blue;
         }
 
         &--green {
@@ -55,6 +59,48 @@ header {
             width: fit-content;
             text-decoration: none;
             font-size: 20px;
+
+            .dot-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 60px;
+
+                @keyframes flow {
+                    from {
+                        opacity: 1;
+                        transform: scale(1.2);
+                    }
+
+                    to {
+                        opacity: .20;
+                        transform: scale(.75);
+                    }
+                }
+
+                .dot {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    background: $default-font-color;
+
+                    &--1 {
+                        animation: flow .4s ease .0s infinite alternate;
+                    }
+
+                    &--2 {
+                        animation: flow .4s ease .2s infinite alternate;
+                    }
+
+                    &--3 {
+                        animation: flow .4s ease .4s infinite alternate;
+                    }
+                }
+            }
+
+            @media screen and (max-width: 1920px) {
+                margin-top: -150px;
+            }
         }
     }
 
@@ -71,6 +117,7 @@ header {
                 background: $btn-block--1-text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
+                background-color: rgb(252, 223, 219);
             }
         }
 
@@ -80,6 +127,7 @@ header {
             background: $btn-block--2-text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            background-color: rgb(255, 245, 254);
         }
 
         &--3 {
@@ -87,6 +135,7 @@ header {
             background: $btn-block--3-text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            background-color: rgb(237, 239, 239);
         }
 
         &--4 {
@@ -94,6 +143,7 @@ header {
             background: $btn-block--4-text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            background-color: rgb(253, 255, 253);
         }
 
         &--text {
@@ -123,6 +173,8 @@ footer {
         font-family: 'Archivo', sans-serif;
         text-decoration: none;
         margin: 15px 10px;
+
+
     }
 }
 
