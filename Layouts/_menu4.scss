@@ -1,0 +1,81 @@
+/* menu4.html */
+#page-content4 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+
+    .menu-title {
+        margin: 20px auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px lightgray;
+
+        &--in {
+            background: $btn-block--4-text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    #menu {
+        background-color: rgb(253, 255, 253);
+        max-width: 100%;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+        display: flex;
+        flex-direction: column;
+        font-family: 'Indie Flower';
+        padding: 0 30px;
+
+        @media screen and (max-width: 500px) {
+            margin: 0 15px;
+            padding: 0 15px;
+            font-size: 12px;
+        }
+
+        .menu-title--in {
+            margin: 0 auto;
+            margin-top: 30px;
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+}
+
+#esquisse,
+#oeuvre,
+#art {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../images/lines/menu4-line.PNG');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .esquisse-block,
+    .oeuvre-block,
+    .art-block {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    .left-block {
+        margin: 0 5px;
+    }
+
+    .right-block {
+        width: 10%;
+    }
+}
