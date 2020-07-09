@@ -533,21 +533,21 @@ header picture #logo {
   -webkit-text-fill-color: transparent;
 }
 #app-content .btn-block--2 {
-  font-family: "Signika";
+  font-family: "Signika", Arial, Helvetica, sans-serif;
   background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #fff5fe;
 }
 #app-content .btn-block--3 {
-  font-family: "Dancing Script";
+  font-family: "Dancing Script", Arial, Helvetica, sans-serif;
   background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #edefef;
 }
 #app-content .btn-block--4 {
-  font-family: "Indie Flower";
+  font-family: "Indie Flower", Arial, Helvetica, sans-serif;
   background: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
