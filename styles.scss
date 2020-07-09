@@ -1,15 +1,12 @@
 @import "Utils/variables";
+
 @import "Layouts/menu1";
 @import "Layouts/menu2";
 @import "Layouts/menu3";
 @import "Layouts/menu4";
 
 
-/* ALL */
-* {
-    margin: 0;
-    padding: 0;
-}
+@import "Utils/clean";
 
 /* HEADER */
 header {
