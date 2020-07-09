@@ -66,18 +66,19 @@
   display: flex;
   flex-direction: column;
   font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
-  padding: 0 30px;
+  margin: 0 15px;
+  padding: 0 15px;
+  font-size: 14px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 768px) {
   #page-content #menu {
     margin: 0 70px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1280px) {
   #page-content #menu {
-    margin: 0 15px;
-    padding: 0 15px;
-    font-size: 12px;
+    margin: 0 auto;
+    width: 450px;
   }
 }
 
@@ -103,8 +104,15 @@
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+@media screen and (min-width: 1280px) {
+  #prelude .title-container,
+#point-orgue .title-container,
+#mouvement-final .title-container {
+    background-size: contain;
+  }
 }
 #prelude .prelude-block,
 #prelude .pointorgue-block,
@@ -155,18 +163,19 @@
   display: flex;
   flex-direction: column;
   font-family: "Signika", Arial, Helvetica, sans-serif;
-  padding: 0 30px;
+  margin: 0 15px;
+  padding: 0 15px;
+  font-size: 14px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 768px) {
   #page-content2 #menu {
     margin: 0 70px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1280px) {
   #page-content2 #menu {
-    margin: 0 15px;
-    padding: 0 15px;
-    font-size: 12px;
+    margin: 0 auto;
+    width: 450px;
   }
 }
 
@@ -210,8 +219,13 @@
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+@media screen and (min-width: 1280px) {
+  #appetite-title {
+    background-size: contain;
+  }
 }
 
 #pleasure {
@@ -224,8 +238,13 @@
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+@media screen and (min-width: 1280px) {
+  #pleasure-title {
+    background-size: contain;
+  }
 }
 
 #delicacies {
@@ -238,8 +257,13 @@
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+@media screen and (min-width: 1280px) {
+  #delicacies-title {
+    background-size: contain;
+  }
 }
 
 /* menu3.html */
@@ -267,18 +291,19 @@
   display: flex;
   flex-direction: column;
   font-family: "Dancing Script", Arial, Helvetica, sans-serif;
-  padding: 0 30px;
+  margin: 0 15px;
+  padding: 0 15px;
+  font-size: 14px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 768px) {
   #page-content3 #menu {
     margin: 0 70px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1280px) {
   #page-content3 #menu {
-    margin: 0 15px;
-    padding: 0 15px;
-    font-size: 12px;
+    margin: 0 auto;
+    width: 450px;
   }
 }
 
@@ -291,8 +316,15 @@
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+@media screen and (min-width: 1280px) {
+  #tostart-title,
+#tocontinue-title,
+#tofinish-title {
+    background-size: contain;
+  }
 }
 #tostart .tostart-block,
 #tostart .tocontinue-block,
@@ -343,18 +375,19 @@
   display: flex;
   flex-direction: column;
   font-family: "Indie Flower", Arial, Helvetica, sans-serif;
-  padding: 0 30px;
+  margin: 0 15px;
+  padding: 0 15px;
+  font-size: 14px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 768px) {
   #page-content4 #menu {
     margin: 0 70px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1280px) {
   #page-content4 #menu {
-    margin: 0 15px;
-    padding: 0 15px;
-    font-size: 12px;
+    margin: 0 auto;
+    width: 450px;
   }
 }
 
@@ -367,8 +400,15 @@
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+@media screen and (min-width: 1280px) {
+  #esquisse-title,
+#oeuvre-title,
+#art-title {
+    background-size: contain;
+  }
 }
 #esquisse .esquisse-block,
 #esquisse .oeuvre-block,
