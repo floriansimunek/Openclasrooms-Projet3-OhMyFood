@@ -6,26 +6,27 @@
     background-color: $background-color;
 }
 
-@mixin page-content-display($display-type, $direction, $padding-bottom) {
-    display: $display-type;
-    flex-direction: $direction;
-    padding-bottom: $padding-bottom;
+@mixin page-content-display {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
 }
 
-@mixin blocks-display($display-type, $direction, $padding) {
-    display: $display-type;
-    flex-direction: $direction;
-    padding: $padding;
+@mixin blocks-display {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
 }
 
 
-@mixin menu-styles($background-color, $width, $shadow, $display-type, $direction, $font-style, $padding) {
+@mixin menu-styles($background-color, $font-style) {
     background-color: $background-color;
-    max-width: $width;
-    box-shadow: $shadow;
-    flex-direction: $direction;
+    max-width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
     font-family: $font-style, Arial, Helvetica, sans-serif;
-    padding: $padding;
+    padding: 0 30px;
 
     @media screen and (max-width: 769px) {
         margin: 0 70px;
@@ -50,14 +51,15 @@
     align-items: center;
 }
 
-@mixin blocks-title($display-type, $direction, $align, $justify, $image-name, $repeat, $size, $position) {
+@mixin blocks-title($image-name) {
     $url:"../images/lines/#{$image-name}.PNG";
     background-image: url($url);
-    display: $display-type;
-    flex-direction: $direction;
-    align-items: $align;
-    justify-content: $justify;
-    background-repeat: $repeat;
-    background-size: $size;
-    background-position: $position;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

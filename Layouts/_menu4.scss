@@ -1,6 +1,6 @@
 /* menu4.html */
 #page-content4 {
-    @include page-content-display(flex, column, 100px);
+    @include page-content-display;
 
     .menu-title {
         margin: 20px auto;
@@ -14,17 +14,17 @@
     }
 
     #menu {
-        @include menu-styles(rgb(253, 255, 253), 100%, 0px 0px 10px 0px rgba(0, 0, 0, 0.35), flex, column, 'Indie Flower', 0 30px);
+        @include menu-styles(rgb(253, 255, 253), 'Indie Flower');
     }
 }
 
 #esquisse,
 #oeuvre,
 #art {
-    @include blocks-display(flex, column, 20px 0);
+    @include blocks-display;
 
     &-title {
-        @include blocks-title(flex, row, center, center, menu4-line, no-repeat, contain, center);
+        @include blocks-title(menu4-line);
     }
 
     .esquisse-block,

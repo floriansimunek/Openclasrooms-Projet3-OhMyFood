@@ -1,6 +1,6 @@
 /* menu3.html */
 #page-content3 {
-    @include page-content-display(flex, column, 100px);
+    @include page-content-display;
 
     .menu-title {
         margin: 20px auto;
@@ -14,17 +14,17 @@
     }
 
     #menu {
-        @include menu-styles(rgb(237, 239, 239), 100%, 0px 0px 10px 0px rgba(0, 0, 0, 0.35), flex, column, 'Dancing Script', 0 30px);
+        @include menu-styles(rgb(237, 239, 239), 'Dancing Script');
     }
 }
 
 #tostart,
 #tocontinue,
 #tofinish {
-    @include blocks-display(flex, column, 20px 0);
+    @include blocks-display;
 
     &-title {
-        @include blocks-title(flex, row, center, center, menu3-line, no-repeat, contain, center);
+        @include blocks-title(menu3-line);
     }
 
     .tostart-block,

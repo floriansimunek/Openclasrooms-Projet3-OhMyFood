@@ -14,7 +14,7 @@ header {
 }
 
 #page-content {
-    @include page-content-display(flex, column, 100px);
+    @include page-content-display;
 
     .menu-title {
         margin: 20px auto;
@@ -59,17 +59,17 @@ header {
     }
 
     #menu {
-        @include menu-styles(rgb(252, 223, 219), 100%, 0px 0px 10px 0px rgba(0, 0, 0, 0.35), flex, column, 'Kaushan Script', 0 30px);
+        @include menu-styles(rgb(252, 223, 219), 'Kaushan Script');
     }
 }
 
 #prelude,
 #point-orgue,
 #mouvement-final {
-    @include blocks-display(flex, column, 20px 0);
+    @include blocks-display;
 
     &-title {
-        @include blocks-title(flex, row, center, center, menu1-line, no-repeat, contain, center);
+        @include blocks-title(menu1-line);
 
         &::after {
             content: '';
