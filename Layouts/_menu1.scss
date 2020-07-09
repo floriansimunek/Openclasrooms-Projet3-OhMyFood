@@ -1,17 +1,5 @@
 /* menu1.html */
-header {
-    background-color: $default-background-color;
-    display: flex;
-
-    a {
-        display: flex;
-
-        #logo {
-            max-width: 40%;
-            margin: 20px auto;
-        }
-    }
-}
+@import "header-menu";
 
 #page-content {
     @include page-content-display;

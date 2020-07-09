@@ -457,6 +457,45 @@ header picture #logo {
   margin: 20px auto;
 }
 
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #579c87;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+footer #left-block,
+footer #right-block {
+  color: #fdcc46;
+  font-size: 20px;
+  font-family: "Archivo", sans-serif;
+  text-decoration: none;
+  margin: 15px 10px;
+}
+footer #left-block:hover,
+footer #right-block:hover {
+  animation: shake 0.3s infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  25% {
+    transform: translate(1px, 1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, -1px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(2px, 1px) rotate(2px);
+  }
+  100% {
+    transform: translate(-1px, 1px) rotate(-1deg);
+  }
+}
+
 /* CONTENT */
 #app-content {
   display: flex;
@@ -565,45 +604,6 @@ header picture #logo {
 #app-content .btn-block--menu {
   color: black;
   font-size: 24px;
-}
-
-/* FOOTER */
-footer {
-  position: fixed;
-  bottom: 0;
-  background-color: #579c87;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-footer #left-block,
-footer #right-block {
-  color: #fdcc46;
-  font-size: 20px;
-  font-family: "Archivo", sans-serif;
-  text-decoration: none;
-  margin: 15px 10px;
-}
-footer #left-block:hover,
-footer #right-block:hover {
-  animation: shake 0.3s infinite;
-}
-@keyframes shake {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  25% {
-    transform: translate(1px, 1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, -1px) rotate(-1deg);
-  }
-  75% {
-    transform: translate(2px, 1px) rotate(2px);
-  }
-  100% {
-    transform: translate(-1px, 1px) rotate(-1deg);
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

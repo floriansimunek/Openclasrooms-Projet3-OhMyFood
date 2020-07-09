@@ -1,0 +1,13 @@
+header {
+    background-color: $default-background-color;
+    display: flex;
+
+    a {
+        display: flex;
+
+        #logo {
+            max-width: 40%;
+            margin: 20px auto;
+        }
+    }
+}

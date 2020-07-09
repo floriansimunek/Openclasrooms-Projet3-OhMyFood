@@ -1,0 +1,15 @@
+/* HEADER */
+header {
+    background-color: $default-background-color;
+    display: flex;
+
+    picture {
+        display: flex;
+        justify-content: center;
+
+        #logo {
+            max-width: 40%;
+            margin: 20px auto;
+        }
+    }
+}

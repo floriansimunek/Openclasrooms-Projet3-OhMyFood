@@ -9,21 +9,8 @@
 
 @import "Utils/clean";
 
-/* HEADER */
-header {
-    background-color: $default-background-color;
-    display: flex;
-
-    picture {
-        display: flex;
-        justify-content: center;
-
-        #logo {
-            max-width: 40%;
-            margin: 20px auto;
-        }
-    }
-}
+@import "Layouts/header";
+@import "Layouts/footer";
 
 /* CONTENT */
 #app-content {
@@ -119,7 +106,6 @@ header {
                 background: $btn-block--1-text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-
             }
         }
 
@@ -142,51 +128,6 @@ header {
         &--menu {
             color: black;
             font-size: 24px;
-        }
-    }
-}
-
-/* FOOTER */
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: $default-background-color;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-
-    #left-block,
-    #right-block {
-        color: $default-font-color;
-        font-size: 20px;
-        font-family: 'Archivo', sans-serif;
-        text-decoration: none;
-        margin: 15px 10px;
-
-        &:hover {
-            animation: shake 0.3s infinite;
-        }
-
-        @keyframes shake {
-            0% {
-                transform: translate(0px, 0px) rotate(0deg);
-            }
-
-            25% {
-                transform: translate(1px, 1px) rotate(1deg);
-            }
-
-            50% {
-                transform: translate(-1px, -1px) rotate(-1deg);
-            }
-
-            75% {
-                transform: translate(2px, 1px) rotate(2px);
-            }
-
-            100% {
-                transform: translate(-1px, 1px) rotate(-1deg);
-            }
         }
     }
 }
