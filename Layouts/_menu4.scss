@@ -32,14 +32,7 @@
     @include blocks-display(flex, column, 20px 0);
 
     &-title {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-image: url('../images/lines/menu4-line.PNG');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        @include blocks-title(flex, row, center, center, menu4-line, no-repeat, contain, center);
     }
 
     .esquisse-block,

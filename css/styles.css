@@ -87,11 +87,11 @@ header a #logo {
 #prelude-title,
 #point-orgue-title,
 #mouvement-final-title {
+  background-image: url("../images/lines/menu1-line.PNG");
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/lines/menu1-line.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -221,11 +221,11 @@ header a #logo {
   color: #c67412;
 }
 #appetite-title {
+  background-image: url("../images/lines/menu2-line1.PNG");
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/lines/menu2-line1.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -235,11 +235,11 @@ header a #logo {
   color: #a56799;
 }
 #pleasure-title {
+  background-image: url("../images/lines/menu2-line2.PNG");
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/lines/menu2-line2.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -249,11 +249,11 @@ header a #logo {
   color: #6e4ccc;
 }
 #delicacies-title {
+  background-image: url("../images/lines/menu2-line3.PNG");
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/lines/menu2-line3.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -313,11 +313,11 @@ header a #logo {
 #tostart-title,
 #tocontinue-title,
 #tofinish-title {
+  background-image: url("../images/lines/menu3-line.PNG");
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/lines/menu3-line.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -400,11 +400,11 @@ header a #logo {
 #esquisse-title,
 #oeuvre-title,
 #art-title {
+  background-image: url("../images/lines/menu4-line.PNG");
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/lines/menu4-line.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

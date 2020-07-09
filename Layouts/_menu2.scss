@@ -57,14 +57,7 @@
     color: rgb(198, 116, 18);
 
     &-title {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-image: url('../images/lines/menu2-line1.PNG');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        @include blocks-title(flex, row, center, center, menu2-line1, no-repeat, contain, center);
     }
 }
 
@@ -72,14 +65,7 @@
     color: rgb(165, 103, 153);
 
     &-title {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-image: url('../images/lines/menu2-line2.PNG');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        @include blocks-title(flex, row, center, center, menu2-line2, no-repeat, contain, center);
     }
 }
 
@@ -87,13 +73,6 @@
     color: rgb(110, 76, 204);
 
     &-title {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-image: url('../images/lines/menu2-line3.PNG');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        @include blocks-title(flex, row, center, center, menu2-line3, no-repeat, contain, center);
     }
 }
