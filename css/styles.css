@@ -12,7 +12,11 @@ header {
   background-color: #579c87;
   display: flex;
 }
-header #logo {
+header picture {
+  display: flex;
+  justify-content: center;
+}
+header picture #logo {
   max-width: 40%;
   margin: 20px auto;
 }
@@ -42,7 +46,6 @@ header #logo {
 #app-content .btn:hover {
   transform: scale(1.1);
   color: white;
-  background-color: blue;
 }
 #app-content .btn--green {
   background-color: #579c87;
@@ -87,23 +90,18 @@ header #logo {
     transform: scale(0.75);
   }
 }
-@media screen and (max-width: 1920px) {
-  #app-content .btn--green {
-    margin-top: -150px;
-  }
-}
 #app-content #btn-container {
   width: 100%;
 }
 #app-content .btn-block--1 {
   font-family: "Kaushan Script";
+  background-color: #fcdfdb;
 }
 #app-content .btn-block--1 .fa-music {
   font-size: 35px;
   background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-color: #fcdfdb;
 }
 #app-content .btn-block--2 {
   font-family: "Signika";
@@ -261,8 +259,14 @@ header a #logo {
 #prelude-title,
 #point-orgue-title,
 #mouvement-final-title {
-  text-align: center;
-  min-width: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/lines/menu1-line.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #prelude-title::after,
 #point-orgue-title::after,
@@ -279,18 +283,6 @@ header a #logo {
 #mouvement-final-title:hover::after {
   width: 100%;
   transition: width 0.3s;
-}
-#prelude .section-title,
-#point-orgue .section-title,
-#mouvement-final .section-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../images/lines/menu1-line.PNG");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 #prelude .prelude-block,
 #prelude .pointorgue-block,
@@ -372,50 +364,6 @@ header a #logo {
   text-align: center;
   min-width: 15%;
 }
-#appetite .section-title,
-#pleasure .section-title,
-#delicacies .section-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-#appetite .section-title--1,
-#pleasure .section-title--1,
-#delicacies .section-title--1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../images/lines/menu2-line1.PNG");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-#appetite .section-title--2,
-#pleasure .section-title--2,
-#delicacies .section-title--2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../images/lines/menu2-line2.PNG");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-#appetite .section-title--3,
-#pleasure .section-title--3,
-#delicacies .section-title--3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../images/lines/menu2-line3.PNG");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
 #appetite .appetite-block,
 #appetite .pleasure-block,
 #appetite .delicacies-block,
@@ -443,13 +391,43 @@ header a #logo {
 #appetite {
   color: #c67412;
 }
+#appetite-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/lines/menu2-line1.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
 #pleasure {
   color: #a56799;
 }
+#pleasure-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/lines/menu2-line2.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
 #delicacies {
   color: #6e4ccc;
+}
+#delicacies-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/lines/menu2-line3.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /* menu3.html */
@@ -505,16 +483,6 @@ header a #logo {
 #tostart-title,
 #tocontinue-title,
 #tofinish-title {
-  text-align: center;
-  min-width: 15%;
-}
-#tostart .section-title,
-#tocontinue .section-title,
-#tofinish .section-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -601,16 +569,6 @@ header a #logo {
 #esquisse-title,
 #oeuvre-title,
 #art-title {
-  text-align: center;
-  min-width: 15%;
-}
-#esquisse .section-title,
-#oeuvre .section-title,
-#art .section-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: center;
