@@ -85,9 +85,22 @@ header a #logo {
   flex-direction: column;
   padding: 20px 0;
 }
-#prelude-title,
-#point-orgue-title,
-#mouvement-final-title {
+#prelude-title .underline-block,
+#point-orgue-title .underline-block,
+#mouvement-final-title .underline-block {
+  height: 2px;
+  background-color: black;
+  width: 0;
+  transition: width 0.5s;
+}
+#prelude-title:hover .underline-block,
+#point-orgue-title:hover .underline-block,
+#mouvement-final-title:hover .underline-block {
+  width: 100%;
+}
+#prelude .title-container,
+#point-orgue .title-container,
+#mouvement-final .title-container {
   background-image: url("../images/lines/menu1-line.PNG");
   display: flex;
   flex-direction: row;
@@ -96,22 +109,6 @@ header a #logo {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
-#prelude-title::after,
-#point-orgue-title::after,
-#mouvement-final-title::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: black;
-  transition: width 0.3s;
-}
-#prelude-title:hover::after,
-#point-orgue-title:hover::after,
-#mouvement-final-title:hover::after {
-  width: 100%;
-  transition: width 0.3s;
 }
 #prelude .prelude-block,
 #prelude .pointorgue-block,
@@ -519,7 +516,6 @@ footer #right-block:hover {
 }
 #app-content .btn:hover {
   transform: scale(1.1);
-  color: white;
 }
 #app-content .btn--green {
   background-color: #579c87;
@@ -527,31 +523,33 @@ footer #right-block:hover {
   font-family: "Archivo", sans-serif;
   padding: 7px 30px;
   border-radius: 5px;
-  display: block;
+  display: flex;
   margin: 0 auto;
   width: fit-content;
   text-decoration: none;
   font-size: 20px;
+  align-items: center;
 }
-#app-content .btn--green .dot-container {
+#app-content .dot-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 60px;
+  margin-left: 15px;
 }
-#app-content .btn--green .dot-container .dot {
-  width: 16px;
-  height: 16px;
+#app-content .dot-container__dot {
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: #fdcc46;
 }
-#app-content .btn--green .dot-container .dot--1 {
+#app-content .dot-container__dot--1 {
   animation: flow 0.4s ease 0s infinite alternate;
 }
-#app-content .btn--green .dot-container .dot--2 {
+#app-content .dot-container__dot--2 {
   animation: flow 0.4s ease 0.2s infinite alternate;
 }
-#app-content .btn--green .dot-container .dot--3 {
+#app-content .dot-container__dot--3 {
   animation: flow 0.4s ease 0.4s infinite alternate;
 }
 @keyframes flow {

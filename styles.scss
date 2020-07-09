@@ -37,7 +37,6 @@
 
         &:hover {
             transform: scale(1.10);
-            color: white;
         }
 
         &--green {
@@ -46,49 +45,51 @@
             font-family: 'Archivo', sans-serif;
             padding: 7px 30px;
             border-radius: 5px;
-            display: block;
+            display: flex;
             margin: 0 auto;
             width: fit-content;
             text-decoration: none;
             font-size: 20px;
+            align-items: center;
+        }
+    }
 
-            .dot-container {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                width: 60px;
+    .dot-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60px;
+        margin-left: 15px;
 
-                .dot {
-                    width: 16px;
-                    height: 16px;
-                    border-radius: 50%;
-                    background: $default-font-color;
+        &__dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: $default-font-color;
 
-                    &--1 {
-                        animation: flow .4s ease .0s infinite alternate;
-                    }
-
-                    &--2 {
-                        animation: flow .4s ease .2s infinite alternate;
-                    }
-
-                    &--3 {
-                        animation: flow .4s ease .4s infinite alternate;
-                    }
-                }
+            &--1 {
+                animation: flow .4s ease .0s infinite alternate;
             }
 
-            @keyframes flow {
-                from {
-                    opacity: 1;
-                    transform: scale(1.2);
-                }
-
-                to {
-                    opacity: .20;
-                    transform: scale(.75);
-                }
+            &--2 {
+                animation: flow .4s ease .2s infinite alternate;
             }
+
+            &--3 {
+                animation: flow .4s ease .4s infinite alternate;
+            }
+        }
+    }
+
+    @keyframes flow {
+        from {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        to {
+            opacity: .20;
+            transform: scale(.75);
         }
     }
 

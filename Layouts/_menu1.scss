@@ -57,21 +57,20 @@
     @include blocks-display;
 
     &-title {
-        @include blocks-title(menu1-line);
-
-        &::after {
-            content: '';
-            display: block;
-            width: 0;
+        .underline-block {
             height: 2px;
-            background: black;
-            transition: width .3s;
+            background-color: black;
+            width: 0;
+            transition: width 0.5s;
         }
 
-        &:hover::after {
+        &:hover .underline-block {
             width: 100%;
-            transition: width .3s;
         }
+    }
+
+    .title-container {
+        @include blocks-title(menu1-line);
     }
 
     .prelude-block,
