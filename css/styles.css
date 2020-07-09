@@ -41,6 +41,7 @@ header a #logo {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 #page-content .menu-title--in--bis .fa-music {
   font-size: 30px;
@@ -59,7 +60,6 @@ header a #logo {
   background-color: #fcdfdb;
   max-width: 100%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-  display: flex;
   flex-direction: column;
   font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
   padding: 0 30px;
@@ -152,15 +152,25 @@ header a #logo {
   background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #page-content2 #menu {
   background-color: #fff5fe;
   max-width: 100%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-  display: flex;
   flex-direction: column;
   font-family: "Signika", Arial, Helvetica, sans-serif;
   padding: 0 30px;
+}
+@media screen and (max-width: 769px) {
+  #page-content2 #menu {
+    margin: 0 70px;
+  }
 }
 @media screen and (max-width: 500px) {
   #page-content2 #menu {
@@ -168,14 +178,6 @@ header a #logo {
     padding: 0 15px;
     font-size: 12px;
   }
-}
-#page-content2 #menu .menu-title--in {
-  margin: 0 auto;
-  margin-top: 30px;
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #appetite,
@@ -273,15 +275,25 @@ header a #logo {
   background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #page-content3 #menu {
   background-color: #edefef;
   max-width: 100%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-  display: flex;
   flex-direction: column;
   font-family: "Dancing Script", Arial, Helvetica, sans-serif;
   padding: 0 30px;
+}
+@media screen and (max-width: 769px) {
+  #page-content3 #menu {
+    margin: 0 70px;
+  }
 }
 @media screen and (max-width: 500px) {
   #page-content3 #menu {
@@ -289,14 +301,6 @@ header a #logo {
     padding: 0 15px;
     font-size: 12px;
   }
-}
-#page-content3 #menu .menu-title--in {
-  margin: 0 auto;
-  margin-top: 30px;
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #tostart,
@@ -358,15 +362,25 @@ header a #logo {
   background: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #page-content4 #menu {
   background-color: #fdfffd;
   max-width: 100%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-  display: flex;
   flex-direction: column;
   font-family: "Indie Flower", Arial, Helvetica, sans-serif;
   padding: 0 30px;
+}
+@media screen and (max-width: 769px) {
+  #page-content4 #menu {
+    margin: 0 70px;
+  }
 }
 @media screen and (max-width: 500px) {
   #page-content4 #menu {
@@ -374,14 +388,6 @@ header a #logo {
     padding: 0 15px;
     font-size: 12px;
   }
-}
-#page-content4 #menu .menu-title--in {
-  margin: 0 auto;
-  margin-top: 30px;
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #esquisse,

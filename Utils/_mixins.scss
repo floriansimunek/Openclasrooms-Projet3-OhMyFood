@@ -17,3 +17,23 @@
     flex-direction: $direction;
     padding: $padding;
 }
+
+
+@mixin menu-styles($background-color, $width, $shadow, $display-type, $direction, $font-style, $padding) {
+    background-color: $background-color;
+    max-width: $width;
+    box-shadow: $shadow;
+    flex-direction: $direction;
+    font-family: $font-style, Arial, Helvetica, sans-serif;
+    padding: $padding;
+
+    @media screen and (max-width: 769px) {
+        margin: 0 70px;
+    }
+
+    @media screen and (max-width: 500px) {
+        margin: 0 15px;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+}
