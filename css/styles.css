@@ -82,8 +82,7 @@ header a #logo {
 #mouvement-final {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 #prelude-title,
 #point-orgue-title,
@@ -184,8 +183,7 @@ header a #logo {
 #delicacies {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 #appetite-title,
 #pleasure-title,
@@ -306,8 +304,7 @@ header a #logo {
 #tofinish {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 #tostart-title,
 #tocontinue-title,
@@ -392,8 +389,7 @@ header a #logo {
 #art {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 #esquisse-title,
 #oeuvre-title,

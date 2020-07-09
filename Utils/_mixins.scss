@@ -11,3 +11,9 @@
     flex-direction: $direction;
     padding-bottom: $padding-bottom;
 }
+
+@mixin blocks-display($display-type, $direction, $padding) {
+    display: $display-type;
+    flex-direction: $direction;
+    padding: $padding;
+}

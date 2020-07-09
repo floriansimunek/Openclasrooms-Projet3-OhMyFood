@@ -45,10 +45,7 @@
 #appetite,
 #pleasure,
 #delicacies {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    @include blocks-display(flex, column, 20px 0);
 
     &-title {
         text-align: center;
