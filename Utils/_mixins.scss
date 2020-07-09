@@ -38,6 +38,18 @@
     }
 }
 
+@mixin menu--in-styles ($background-color) {
+    background: $background-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @mixin blocks-title($display-type, $direction, $align, $justify, $image-name, $repeat, $size, $position) {
     $url:"../images/lines/#{$image-name}.PNG";
     background-image: url($url);
