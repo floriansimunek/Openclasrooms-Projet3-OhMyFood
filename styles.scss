@@ -1,4 +1,5 @@
 @import "Utils/variables";
+@import "Utils/mixins";
 
 @import "Layouts/menu1";
 @import "Layouts/menu2";
@@ -110,7 +111,7 @@ header {
 
     .btn-block {
         &--1 {
-            font-family: 'Kaushan Script';
+            font-family: 'Kaushan Script', Arial, Helvetica, sans-serif;
             background-color: rgb(252, 223, 219);
 
             .fa-music {
@@ -123,28 +124,15 @@ header {
         }
 
         &--2 {
-            font-family: 'Signika';
-            font-size: 14px;
-            background: $btn-block--2-text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-color: rgb(255, 245, 254);
+            @include btn-block-styles('Signika', $btn-block--2-text, rgb(255, 245, 254));
         }
 
         &--3 {
-            font-family: 'Dancing Script';
-            background: $btn-block--3-text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-color: rgb(237, 239, 239);
+            @include btn-block-styles('Dancing Script', $btn-block--3-text, rgb(237, 239, 239));
         }
 
         &--4 {
-            font-family: 'Indie Flower';
-            background: $btn-block--4-text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-color: rgb(253, 255, 253);
+            @include btn-block-styles('Indie Flower', $btn-block--4-text, rgb(253, 255, 253));
         }
 
         &--text {

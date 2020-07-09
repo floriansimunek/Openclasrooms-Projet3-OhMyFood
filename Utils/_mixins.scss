@@ -1,0 +1,7 @@
+@mixin btn-block-styles($font-family, $background-gradient-color, $background-color) {
+    font-family: $font-family;
+    background: $background-gradient-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: $background-color;
+}

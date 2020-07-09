@@ -523,7 +523,7 @@ header picture #logo {
   width: 100%;
 }
 #app-content .btn-block--1 {
-  font-family: "Kaushan Script";
+  font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
   background-color: #fcdfdb;
 }
 #app-content .btn-block--1 .fa-music {
@@ -534,7 +534,6 @@ header picture #logo {
 }
 #app-content .btn-block--2 {
   font-family: "Signika";
-  font-size: 14px;
   background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
