@@ -1,6 +1,6 @@
 /* menu4.html */
 #page-content4 {
-    @include page-content-display;
+    @extend %page-content-display;
 
     .menu-title {
         margin: 20px auto;
@@ -21,7 +21,7 @@
 #esquisse,
 #oeuvre,
 #art {
-    @include blocks-display;
+    @extend %blocks-display;
 
     &-title {
         @include blocks-title(menu4-line);

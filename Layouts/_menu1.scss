@@ -1,8 +1,6 @@
 /* menu1.html */
-@import "header-menu";
-
 #page-content {
-    @include page-content-display;
+    @extend %page-content-display;
 
     .menu-title {
         margin: 20px auto;
@@ -54,7 +52,7 @@
 #prelude,
 #point-orgue,
 #mouvement-final {
-    @include blocks-display;
+    @extend %blocks-display;
 
     &-title {
         .underline-block {

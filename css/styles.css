@@ -1,24 +1,27 @@
 /* color */
 /* icons */
 /* btn texts */
-/* menu1.html */
-header {
-  background-color: #579c87;
-  display: flex;
-}
-header a {
-  display: flex;
-}
-header a #logo {
-  max-width: 40%;
-  margin: 20px auto;
-}
-
-#page-content {
+#page-content4, #page-content3, #page-content2, #page-content {
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
 }
+
+#esquisse,
+#oeuvre,
+#art, #tostart,
+#tocontinue,
+#tofinish, #appetite,
+#pleasure,
+#delicacies, #prelude,
+#point-orgue,
+#mouvement-final {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+/* menu1.html */
 #page-content .menu-title {
   margin: 20px auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -78,13 +81,6 @@ header a #logo {
   }
 }
 
-#prelude,
-#point-orgue,
-#mouvement-final {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-}
 #prelude-title .underline-block,
 #point-orgue-title .underline-block,
 #mouvement-final-title .underline-block {
@@ -135,11 +131,6 @@ header a #logo {
 }
 
 /* menu2.html */
-#page-content2 {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 100px;
-}
 #page-content2 .menu-title {
   margin: 20px auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -179,13 +170,6 @@ header a #logo {
   }
 }
 
-#appetite,
-#pleasure,
-#delicacies {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-}
 #appetite-title,
 #pleasure-title,
 #delicacies-title {
@@ -259,11 +243,6 @@ header a #logo {
 }
 
 /* menu3.html */
-#page-content3 {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 100px;
-}
 #page-content3 .menu-title {
   margin: 20px auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -303,13 +282,6 @@ header a #logo {
   }
 }
 
-#tostart,
-#tocontinue,
-#tofinish {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-}
 #tostart-title,
 #tocontinue-title,
 #tofinish-title {
@@ -347,11 +319,6 @@ header a #logo {
 }
 
 /* menu4.html */
-#page-content4 {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 100px;
-}
 #page-content4 .menu-title {
   margin: 20px auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -391,13 +358,6 @@ header a #logo {
   }
 }
 
-#esquisse,
-#oeuvre,
-#art {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-}
 #esquisse-title,
 #oeuvre-title,
 #art-title {
@@ -450,6 +410,18 @@ header picture {
   justify-content: center;
 }
 header picture #logo {
+  max-width: 40%;
+  margin: 20px auto;
+}
+
+header {
+  background-color: #579c87;
+  display: flex;
+}
+header a {
+  display: flex;
+}
+header a #logo {
   max-width: 40%;
   margin: 20px auto;
 }

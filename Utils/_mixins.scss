@@ -6,19 +6,6 @@
     background-color: $background-color;
 }
 
-@mixin page-content-display {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
-}
-
-@mixin blocks-display {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-}
-
-
 @mixin menu-styles($background-color, $font-style) {
     background-color: $background-color;
     max-width: 100%;

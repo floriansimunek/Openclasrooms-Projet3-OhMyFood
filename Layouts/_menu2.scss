@@ -1,6 +1,6 @@
 /* menu2.html */
 #page-content2 {
-    @include page-content-display;
+    @extend %page-content-display;
 
     .menu-title {
         margin: 20px auto;
@@ -21,7 +21,7 @@
 #appetite,
 #pleasure,
 #delicacies {
-    @include blocks-display;
+    @extend %blocks-display;
 
     &-title {
         text-align: center;
