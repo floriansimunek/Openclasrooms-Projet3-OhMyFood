@@ -1,9 +1,16 @@
 @mixin btn-block-styles($font-family, $background-gradient-color, $background-color) {
-    font-family: $font-family, Arial, Helvetica, sans-serif;
-    background: $background-gradient-color;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-color: $background-color;
+    .btn-menu {
+        display: flex;
+        flex-direction: column;
+        font-family: $font-family,
+            Arial,
+            Helvetica,
+            sans-serif;
+        background: $background-gradient-color;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-color: $background-color;
+    }
 }
 
 @mixin menu-styles($background-color, $font-style) {
@@ -48,10 +55,6 @@
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-
-    @media screen and (min-width: 1280px) {
-        background-size: contain;
-    }
 }
