@@ -10,6 +10,19 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-color: $background-color;
+
+        @media screen and (min-width: 1280px) {
+            font-size: 25px;
+        }
+
+        transition: transform 400ms,
+        opacity 600ms;
+
+        &:hover {
+            transform: scale(1.15);
+            cursor: pointer;
+            opacity: 0.5;
+        }
     }
 }
 

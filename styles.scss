@@ -21,6 +21,11 @@
     justify-content: space-between;
     padding: 25px;
 
+    @media screen and (min-width: 1280px) {
+        width: 30%;
+        margin: 0 auto;
+    }
+
     .btn {
         width: 45%;
         min-height: 32vh;
@@ -32,10 +37,6 @@
         align-items: center;
         justify-content: center;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-
-        @media screen and (min-width: 1280px) {
-            margin-bottom: 2%;
-        }
 
         &--green {
             background-color: $default-background-color;
@@ -110,7 +111,7 @@
                 transition: transform 400ms, opacity 600ms;
 
                 &:hover {
-                    transform: scale(1.5);
+                    transform: scale(1.2);
                     cursor: pointer;
                     opacity: 0.5;
                 }

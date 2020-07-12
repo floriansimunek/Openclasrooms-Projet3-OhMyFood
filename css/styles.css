@@ -477,6 +477,12 @@ footer #right-block:hover {
   justify-content: space-between;
   padding: 25px;
 }
+@media screen and (min-width: 1280px) {
+  #app-content {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
 #app-content .btn {
   width: 45%;
   min-height: 32vh;
@@ -488,11 +494,6 @@ footer #right-block:hover {
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-}
-@media screen and (min-width: 1280px) {
-  #app-content .btn {
-    margin-bottom: 2%;
-  }
 }
 #app-content .btn--green {
   background-color: #579c87;
@@ -557,7 +558,7 @@ footer #right-block:hover {
   transition: transform 400ms, opacity 600ms;
 }
 #app-content .btn-block--1 .btn-menu:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   cursor: pointer;
   opacity: 0.5;
 }
@@ -575,6 +576,17 @@ footer #right-block:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #fff5fe;
+  transition: transform 400ms, opacity 600ms;
+}
+@media screen and (min-width: 1280px) {
+  #app-content .btn-block--2 .btn-menu {
+    font-size: 25px;
+  }
+}
+#app-content .btn-block--2 .btn-menu:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  opacity: 0.5;
 }
 #app-content .btn-block--3 .btn-menu {
   display: flex;
@@ -584,6 +596,17 @@ footer #right-block:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #edefef;
+  transition: transform 400ms, opacity 600ms;
+}
+@media screen and (min-width: 1280px) {
+  #app-content .btn-block--3 .btn-menu {
+    font-size: 25px;
+  }
+}
+#app-content .btn-block--3 .btn-menu:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  opacity: 0.5;
 }
 #app-content .btn-block--4 .btn-menu {
   display: flex;
@@ -593,6 +616,17 @@ footer #right-block:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #fdfffd;
+  transition: transform 400ms, opacity 600ms;
+}
+@media screen and (min-width: 1280px) {
+  #app-content .btn-block--4 .btn-menu {
+    font-size: 25px;
+  }
+}
+#app-content .btn-block--4 .btn-menu:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  opacity: 0.5;
 }
 #app-content .btn-block--text {
   color: black;
