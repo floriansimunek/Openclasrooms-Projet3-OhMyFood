@@ -31,6 +31,7 @@
 #page-content .menu-title--in {
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 50px;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -68,6 +69,7 @@
   font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
   margin: 0 15px;
   padding: 0 15px;
+  padding-bottom: 50px;
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
@@ -78,7 +80,8 @@
 @media screen and (min-width: 1280px) {
   #page-content #menu {
     margin: 0 auto;
-    width: 450px;
+    width: 800px;
+    font-size: 22px;
   }
 }
 
@@ -144,6 +147,7 @@
   -webkit-text-fill-color: transparent;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 50px;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -158,6 +162,7 @@
   font-family: "Signika", Arial, Helvetica, sans-serif;
   margin: 0 15px;
   padding: 0 15px;
+  padding-bottom: 50px;
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
@@ -168,7 +173,8 @@
 @media screen and (min-width: 1280px) {
   #page-content2 #menu {
     margin: 0 auto;
-    width: 450px;
+    width: 800px;
+    font-size: 22px;
   }
 }
 
@@ -257,6 +263,7 @@
   -webkit-text-fill-color: transparent;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 50px;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -271,6 +278,7 @@
   font-family: "Dancing Script", Arial, Helvetica, sans-serif;
   margin: 0 15px;
   padding: 0 15px;
+  padding-bottom: 50px;
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
@@ -281,7 +289,8 @@
 @media screen and (min-width: 1280px) {
   #page-content3 #menu {
     margin: 0 auto;
-    width: 450px;
+    width: 800px;
+    font-size: 22px;
   }
 }
 
@@ -334,6 +343,7 @@
   -webkit-text-fill-color: transparent;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 50px;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -348,6 +358,7 @@
   font-family: "Indie Flower", Arial, Helvetica, sans-serif;
   margin: 0 15px;
   padding: 0 15px;
+  padding-bottom: 50px;
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
@@ -358,7 +369,8 @@
 @media screen and (min-width: 1280px) {
   #page-content4 #menu {
     margin: 0 auto;
-    width: 450px;
+    width: 800px;
+    font-size: 22px;
   }
 }
 
@@ -412,10 +424,11 @@ header {
 header picture {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 header picture #logo {
-  max-width: 40%;
-  margin: 0 auto;
+  width: 300px;
+  margin: 10px auto;
 }
 
 header {
@@ -552,17 +565,17 @@ footer #right-block:hover {
   font-family: "Kaushan Script", Arial, Helvetica, sans-serif;
   background-color: #fcdfdb;
 }
-#app-content .btn-block--1 .btn-menu {
+#app-content .btn-block--1 .btn-menu--first {
   display: flex;
   flex-direction: column;
   transition: transform 400ms, opacity 600ms;
 }
-#app-content .btn-block--1 .btn-menu:hover {
+#app-content .btn-block--1 .btn-menu--first:hover {
   transform: scale(1.2);
   cursor: pointer;
   opacity: 0.5;
 }
-#app-content .btn-block--1 .btn-menu .fa-music {
+#app-content .btn-block--1 .btn-menu--first .fa-music {
   font-size: 35px;
   background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
   -webkit-background-clip: text;
