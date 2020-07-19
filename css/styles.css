@@ -431,16 +431,19 @@ header picture #logo {
   margin: 10px auto;
 }
 
+/* HEADER */
 header {
   background-color: #579c87;
   display: flex;
 }
 header a {
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 header a #logo {
-  max-width: 40%;
-  margin: 20px auto;
+  width: 300px;
+  margin: 10px auto;
 }
 
 /* FOOTER */
@@ -524,6 +527,12 @@ footer #right-block:hover {
 @media screen and (min-width: 1280px) {
   #app-content .btn--green {
     margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #app-content .btn--green {
+    margin-bottom: 100px;
+    margin-top: -20px;
   }
 }
 #app-content .dot-container {

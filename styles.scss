@@ -54,6 +54,11 @@
             @media screen and (min-width: 1280px) {
                 margin-bottom: 100px;
             }
+
+            @media screen and (max-width:600px) {
+                margin-bottom: 100px;
+                margin-top: -20px;
+            }
         }
     }
 
