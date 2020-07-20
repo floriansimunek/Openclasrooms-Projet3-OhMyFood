@@ -3,10 +3,7 @@
     @extend %page-content-display;
 
     .menu-title {
-        margin: 20px auto;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        text-shadow: 1px 1px 2px lightgray;
+        @extend %menu-title-style;
 
         &--in {
             @include menu--in-styles($btn-block--2-text);
