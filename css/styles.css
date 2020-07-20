@@ -391,6 +391,17 @@
   width: 10%;
 }
 
+#mentions-legales {
+  width: 50%;
+  margin: 50px auto;
+}
+
+#editeurs,
+#lois,
+#conditions {
+  margin-top: 50px;
+}
+
 /* ALL */
 * {
   margin: 0;
