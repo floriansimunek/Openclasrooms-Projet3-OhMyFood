@@ -21,17 +21,16 @@
   padding: 20px 0;
 }
 
-/* menu1.html */
-#page-content .menu-title {
+#page-content4 .menu-title, #page-content3 .menu-title, #page-content2 .menu-title, #page-content .menu-title {
   margin: 20px auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-shadow: 1px 1px 2px lightgray;
 }
+
+/* menu1.html */
 #page-content .menu-title--in {
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin: 30px auto 50px;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -135,12 +134,6 @@
 }
 
 /* menu2.html */
-#page-content2 .menu-title {
-  margin: 20px auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px lightgray;
-}
 #page-content2 .menu-title--in {
   background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
   -webkit-background-clip: text;
@@ -251,12 +244,6 @@
 }
 
 /* menu3.html */
-#page-content3 .menu-title {
-  margin: 20px auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px lightgray;
-}
 #page-content3 .menu-title--in {
   background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
   -webkit-background-clip: text;
@@ -331,12 +318,6 @@
 }
 
 /* menu4.html */
-#page-content4 .menu-title {
-  margin: 20px auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px lightgray;
-}
 #page-content4 .menu-title--in {
   background: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
   -webkit-background-clip: text;
@@ -419,7 +400,6 @@
 /* HEADER */
 header {
   background-color: #579c87;
-  display: flex;
 }
 header picture {
   display: flex;
@@ -434,7 +414,6 @@ header picture #logo {
 /* HEADER */
 header {
   background-color: #579c87;
-  display: flex;
 }
 header a {
   display: flex;
@@ -459,7 +438,7 @@ footer #left-block,
 footer #right-block {
   color: #fdcc46;
   font-size: 20px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Archivo", Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 15px 10px;
 }
@@ -514,7 +493,7 @@ footer #right-block:hover {
 #app-content .btn--green {
   background-color: #579c87;
   color: #fdcc46;
-  font-family: "Archivo", sans-serif;
+  font-family: "Archivo", Arial, Helvetica, sans-serif;
   padding: 7px 30px;
   border-radius: 5px;
   display: flex;
