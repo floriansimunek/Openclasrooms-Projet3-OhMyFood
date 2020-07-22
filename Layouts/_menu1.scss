@@ -12,30 +12,23 @@
             flex-direction: column;
             align-items: center;
 
-            &--bis {
-                margin: 0 auto;
-                margin-top: 30px;
-                margin-bottom: 40px;
-                font-size: 18px;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-
-                .fa-music {
-                    font-size: 30px;
-                    margin-right: 5px;
-                    background: $btn-block--1-text;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                }
+            .fa-music {
+                @include menu1-icon(50px, 0px);
             }
+        }
+
+        &--in--bis {
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            font-size: 18px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
 
             .fa-music {
-                font-size: 50px;
-                background: $btn-block--1-text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                @include menu1-icon(30px, 5px);
             }
         }
     }

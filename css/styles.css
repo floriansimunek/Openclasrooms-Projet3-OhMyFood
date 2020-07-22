@@ -36,6 +36,13 @@
   flex-direction: column;
   align-items: center;
 }
+#page-content .menu-title--in .fa-music {
+  font-size: 50px;
+  margin-right: 0px;
+  background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #page-content .menu-title--in--bis {
   margin: 0 auto;
   margin-top: 30px;
@@ -49,12 +56,6 @@
 #page-content .menu-title--in--bis .fa-music {
   font-size: 30px;
   margin-right: 5px;
-  background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-#page-content .menu-title--in .fa-music {
-  font-size: 50px;
   background: linear-gradient(90deg, #f04a5e 0%, #f78f6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

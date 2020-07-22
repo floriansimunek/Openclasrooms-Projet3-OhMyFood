@@ -74,3 +74,11 @@
     background-size: contain;
     background-position: center;
 }
+
+@mixin menu1-icon($font-size, $margin-right){
+    font-size: $font-size;
+    margin-right: $margin-right;
+    background: $btn-block--1-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
