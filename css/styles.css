@@ -413,26 +413,12 @@
 header {
   background-color: #579c87;
 }
-header picture {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-header picture #logo {
-  width: 300px;
-  margin: 10px auto;
-}
-
-/* HEADER */
-header {
-  background-color: #579c87;
-}
 header a {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-header a #logo {
+header a picture #logo {
   width: 300px;
   margin: 10px auto;
 }
