@@ -22,10 +22,64 @@
 }
 
 #page-content4 .menu-title, #page-content3 .menu-title, #page-content2 .menu-title, #page-content .menu-title {
-  margin: 20px auto;
+  margin: 30px auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-shadow: 1px 1px 2px lightgray;
+}
+
+@media screen and (min-width: 1280px) {
+  #esquisse-title,
+#oeuvre-title,
+#art-title, #tostart-title,
+#tocontinue-title,
+#tofinish-title, #appetite-title,
+#pleasure-title,
+#delicacies-title, #prelude-title,
+#point-orgue-title,
+#mouvement-final-title {
+    margin: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #esquisse .esquisse-block,
+#esquisse .oeuvre-block,
+#esquisse .art-block,
+#oeuvre .esquisse-block,
+#oeuvre .oeuvre-block,
+#oeuvre .art-block,
+#art .esquisse-block,
+#art .oeuvre-block,
+#art .art-block, #tostart .tostart-block,
+#tostart .tocontinue-block,
+#tostart .tofinish-block,
+#tocontinue .tostart-block,
+#tocontinue .tocontinue-block,
+#tocontinue .tofinish-block,
+#tofinish .tostart-block,
+#tofinish .tocontinue-block,
+#tofinish .tofinish-block, #appetite .appetite-block,
+#appetite .pleasure-block,
+#appetite .delicacies-block,
+#pleasure .appetite-block,
+#pleasure .pleasure-block,
+#pleasure .delicacies-block,
+#delicacies .appetite-block,
+#delicacies .pleasure-block,
+#delicacies .delicacies-block, #prelude .prelude-block,
+#prelude .pointorgue-block,
+#prelude .mouvementfinal-block,
+#point-orgue .prelude-block,
+#point-orgue .pointorgue-block,
+#point-orgue .mouvementfinal-block,
+#mouvement-final .prelude-block,
+#mouvement-final .pointorgue-block,
+#mouvement-final .mouvementfinal-block {
+    width: 80%;
+    font-size: 16px;
+    margin: 5px auto;
+  }
 }
 
 /* menu1.html */
@@ -80,7 +134,7 @@
 @media screen and (min-width: 1280px) {
   #page-content #menu {
     margin: 0 auto;
-    width: 800px;
+    width: 700px;
     font-size: 22px;
   }
 }
@@ -92,6 +146,7 @@
   background-color: black;
   width: 0;
   transition: width 0.5s;
+  display: block;
 }
 #prelude-title:hover .underline-block,
 #point-orgue-title:hover .underline-block,
@@ -139,9 +194,7 @@
   background: linear-gradient(90deg, #d8852e 0%, #ac6baf 50%, #905bfd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin: 50px auto;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -167,7 +220,7 @@
 @media screen and (min-width: 1280px) {
   #page-content2 #menu {
     margin: 0 auto;
-    width: 800px;
+    width: 700px;
     font-size: 22px;
   }
 }
@@ -249,9 +302,7 @@
   background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin: 50px auto;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -277,7 +328,7 @@
 @media screen and (min-width: 1280px) {
   #page-content3 #menu {
     margin: 0 auto;
-    width: 800px;
+    width: 700px;
     font-size: 22px;
   }
 }
@@ -323,9 +374,7 @@
   background: linear-gradient(90deg, #4c9f42 0%, #bfff7e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin: 50px auto;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -351,7 +400,7 @@
 @media screen and (min-width: 1280px) {
   #page-content4 #menu {
     margin: 0 auto;
-    width: 800px;
+    width: 700px;
     font-size: 22px;
   }
 }

@@ -1,18 +1,18 @@
-@import "../Utils/variables";
-@import "../Utils/mixins";
-@import "../Utils/extends";
+@import "Utils/variables";
+@import "Utils/mixins";
+@import "Utils/extends";
 
-@import "../Layouts/menu1";
-@import "../Layouts/menu2";
-@import "../Layouts/menu3";
-@import "../Layouts/menu4";
+@import "Layouts/menu1";
+@import "Layouts/menu2";
+@import "Layouts/menu3";
+@import "Layouts/menu4";
 
-@import "../Layouts/mentions-legales";
+@import "Layouts/mentions-legales";
 
-@import "../Utils/clean";
+@import "Utils/clean";
 
-@import "../Layouts/header";
-@import "../Layouts/footer";
+@import "Layouts/header";
+@import "Layouts/footer";
 
 /* CONTENT */
 #app-content {

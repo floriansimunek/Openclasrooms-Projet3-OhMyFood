@@ -22,6 +22,7 @@
 
     &-title {
         @include blocks-title(menu4-line);
+        @extend %title-desktop-display;
     }
 
     .esquisse-block,
@@ -30,6 +31,7 @@
         display: flex;
         margin-top: 10px;
         justify-content: space-between;
+        @extend %blocks-desktop-display;
     }
 
     .left-block {

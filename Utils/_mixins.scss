@@ -44,7 +44,7 @@
 
     @media screen and (min-width: 1280px) {
         margin: 0 auto;
-        width: 800px;
+        width: 700px;
         font-size: 22px;
     }
 }
@@ -53,9 +53,7 @@
     background: $background-color;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: 50px auto;
     font-size: 25px;
     display: flex;
     flex-direction: column;

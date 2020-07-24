@@ -23,6 +23,7 @@
     &-title {
         text-align: center;
         min-width: 15%;
+        @extend %title-desktop-display;
     }
 
     .appetite-block,
@@ -31,6 +32,7 @@
         display: flex;
         margin-top: 10px;
         justify-content: space-between;
+        @extend %blocks-desktop-display;
     }
 
     .left-block {
