@@ -19,14 +19,14 @@
     text-shadow: 1px 1px 2px lightgray;
 }
 
-%title-desktop-display{
-    @media screen and (min-width: 1280px) {
+%title-screen-display{
+    @media screen and (min-width: 1280px), (min-width: 1024px) {
         margin: 40px 0;
     }
 }
 
-%blocks-desktop-display{
-    @media screen and (min-width: 1280px) {
+%blocks-screen-display{
+    @media screen and (min-width: 1280px), (min-width: 1024px) {
         width: 80%;
         font-size: 16px;
         margin: 5px auto;

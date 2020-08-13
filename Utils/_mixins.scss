@@ -60,7 +60,7 @@
     align-items: center;
 }
 
-@mixin blocks-title($image-name) {
+@mixin blocks-title-left($image-name) {
     $url:"../images/lines/#{$image-name}.PNG";
     background-image: url($url);
 
@@ -73,7 +73,20 @@
     background-position: center;
 }
 
-@mixin menu1-icon($font-size, $margin-right){
+@mixin blocks-title-right($image-name) {
+    $url:"../images/lines/#{$image-name}.PNG";
+    background-image: url($url);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@mixin menu1-icon($font-size, $margin-right) {
     font-size: $font-size;
     margin-right: $margin-right;
     background: $btn-block--1-text;

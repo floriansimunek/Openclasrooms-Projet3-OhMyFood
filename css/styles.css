@@ -28,7 +28,7 @@
   text-shadow: 1px 1px 2px lightgray;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px), (min-width: 1024px) {
   #esquisse-title,
 #oeuvre-title,
 #art-title, #tostart-title,
@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px), (min-width: 1024px) {
   #esquisse .esquisse-block,
 #esquisse .oeuvre-block,
 #esquisse .art-block,
@@ -139,6 +139,11 @@
   }
 }
 
+#prelude-title,
+#point-orgue-title,
+#mouvement-final-title {
+  width: 40%;
+}
 #prelude-title .underline-block,
 #point-orgue-title .underline-block,
 #mouvement-final-title .underline-block {
@@ -156,7 +161,29 @@
 #prelude .title-container,
 #point-orgue .title-container,
 #mouvement-final .title-container {
-  background-image: url("../images/lines/menu1-line.PNG");
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+#prelude .title-lines-left,
+#point-orgue .title-lines-left,
+#mouvement-final .title-lines-left {
+  width: 25%;
+  background-image: url("../images/lines/menu1-left-line.PNG");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#prelude .title-lines-right,
+#point-orgue .title-lines-right,
+#mouvement-final .title-lines-right {
+  width: 25%;
+  background-image: url("../images/lines/menu1-right-line.PNG");
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -225,11 +252,19 @@
   }
 }
 
-#appetite-title,
-#pleasure-title,
-#delicacies-title {
-  text-align: center;
-  min-width: 15%;
+#appetite-title .underline-block,
+#pleasure-title .underline-block,
+#delicacies-title .underline-block {
+  height: 2px;
+  background-color: black;
+  width: 0;
+  transition: width 0.5s;
+  display: block;
+}
+#appetite-title:hover .underline-block,
+#pleasure-title:hover .underline-block,
+#delicacies-title:hover .underline-block {
+  width: 100%;
 }
 #appetite .appetite-block,
 #appetite .pleasure-block,
@@ -258,45 +293,12 @@
 #appetite {
   color: #c67412;
 }
-#appetite-title {
-  background-image: url("../images/lines/menu2-line1.PNG");
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
 #pleasure {
   color: #a56799;
 }
-#pleasure-title {
-  background-image: url("../images/lines/menu2-line2.PNG");
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
 #delicacies {
   color: #6e4ccc;
 }
-#delicacies-title {
-  background-image: url("../images/lines/menu2-line3.PNG");
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
 /* menu3.html */
 #page-content3 .menu-title--in {
   background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
@@ -333,17 +335,19 @@
   }
 }
 
-#tostart-title,
-#tocontinue-title,
-#tofinish-title {
-  background-image: url("../images/lines/menu3-line.PNG");
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+#tostart-title .underline-block,
+#tocontinue-title .underline-block,
+#tofinish-title .underline-block {
+  height: 2px;
+  background-color: black;
+  width: 0;
+  transition: width 0.5s;
+  display: block;
+}
+#tostart-title:hover .underline-block,
+#tocontinue-title:hover .underline-block,
+#tofinish-title:hover .underline-block {
+  width: 100%;
 }
 #tostart .tostart-block,
 #tostart .tocontinue-block,
@@ -405,17 +409,19 @@
   }
 }
 
-#esquisse-title,
-#oeuvre-title,
-#art-title {
-  background-image: url("../images/lines/menu4-line.PNG");
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+#esquisse-title .underline-block,
+#oeuvre-title .underline-block,
+#art-title .underline-block {
+  height: 2px;
+  background-color: black;
+  width: 0;
+  transition: width 0.5s;
+  display: block;
+}
+#esquisse-title:hover .underline-block,
+#oeuvre-title:hover .underline-block,
+#art-title:hover .underline-block {
+  width: 100%;
 }
 #esquisse .esquisse-block,
 #esquisse .oeuvre-block,

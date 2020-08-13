@@ -21,9 +21,19 @@
     @extend %blocks-display;
 
     &-title {
-        text-align: center;
-        min-width: 15%;
-        @extend %title-desktop-display;
+        @extend %title-screen-display;
+
+        .underline-block {
+            height: 2px;
+            background-color: black;
+            width: 0;
+            transition: width 0.5s;
+            display: block;
+        }
+
+        &:hover .underline-block {
+            width: 100%;
+        }
     }
 
     .appetite-block,
@@ -32,7 +42,7 @@
         display: flex;
         margin-top: 10px;
         justify-content: space-between;
-        @extend %blocks-desktop-display;
+        @extend %blocks-screen-display;
     }
 
     .left-block {
@@ -48,7 +58,7 @@
     color: rgb(198, 116, 18);
 
     &-title {
-        @include blocks-title(menu2-line1);
+        //@include blocks-title(menu2-line1);
     }
 }
 
@@ -56,7 +66,7 @@
     color: rgb(165, 103, 153);
 
     &-title {
-        @include blocks-title(menu2-line2);
+        //@include blocks-title(menu2-line2);
     }
 }
 
@@ -64,6 +74,6 @@
     color: rgb(110, 76, 204);
 
     &-title {
-        @include blocks-title(menu2-line3);
+        //@include blocks-title(menu2-line3);
     }
 }
