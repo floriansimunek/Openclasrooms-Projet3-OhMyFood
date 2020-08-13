@@ -46,6 +46,7 @@
     &-title {
         @extend %title-screen-display;
         width: 40%;
+        text-align: center;
 
         .underline-block {
             height: 2px;
@@ -65,6 +66,11 @@
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+
     }
 
     .title-lines {

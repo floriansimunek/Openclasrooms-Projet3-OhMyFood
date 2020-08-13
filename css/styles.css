@@ -143,6 +143,7 @@
 #point-orgue-title,
 #mouvement-final-title {
   width: 40%;
+  text-align: center;
 }
 #prelude-title .underline-block,
 #point-orgue-title .underline-block,
@@ -165,6 +166,13 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #prelude .title-container,
+#point-orgue .title-container,
+#mouvement-final .title-container {
+    width: 100%;
+  }
 }
 #prelude .title-lines-left,
 #point-orgue .title-lines-left,

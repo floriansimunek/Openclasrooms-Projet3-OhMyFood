@@ -19,16 +19,20 @@
     text-shadow: 1px 1px 2px lightgray;
 }
 
-%title-screen-display{
-    @media screen and (min-width: 1280px), (min-width: 1024px) {
+%title-screen-display {
+
+    @media screen and (min-width: 1280px),
+    (min-width: 1024px) {
         margin: 40px 0;
     }
 }
 
-%blocks-screen-display{
-    @media screen and (min-width: 1280px), (min-width: 1024px) {
+%blocks-screen-display {
+
+    @media screen and (min-width: 1280px),
+    (min-width: 1024px) {
         width: 80%;
         font-size: 16px;
         margin: 5px auto;
-    }    
+    }
 }
