@@ -21,15 +21,10 @@
     @extend %blocks-display;
 
     &-title {
-        //@include blocks-title(menu4-line);
         @extend %title-screen-display;
 
         .underline-block {
-            height: 2px;
-            background-color: black;
-            width: 0;
-            transition: width 0.5s;
-            display: block;
+            @include underline-block(black);
         }
 
         &:hover .underline-block {
@@ -37,12 +32,23 @@
         }
     }
 
+    .title-container {
+        @extend %title-container-display;
+    }
+
+    .title-lines {
+        &-left {
+            @include blocks-title-left(menu4-left-line);
+        }
+
+        &-right {
+            @include blocks-title-right(menu4-right-line);
+        }
+    }
+
     .esquisse-block,
     .oeuvre-block,
     .art-block {
-        display: flex;
-        margin-top: 10px;
-        justify-content: space-between;
         @extend %blocks-screen-display;
     }
 
