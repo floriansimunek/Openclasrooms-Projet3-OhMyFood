@@ -36,6 +36,50 @@
         }
     }
 
+    .title-container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+    }
+
+    .title-lines {
+        &-left1 {
+            width: 25%;
+            @include blocks-title-left(menu2-left-line1);
+        }
+
+        &-left2 {
+            width: 25%;
+            @include blocks-title-left(menu2-left-line2);
+        }
+
+        &-left3 {
+            width: 25%;
+            @include blocks-title-left(menu2-left-line3);
+        }
+
+        &-right1 {
+            width: 25%;
+            @include blocks-title-right(menu2-right-line1);
+        }
+
+        &-right2 {
+            width: 25%;
+            @include blocks-title-right(menu2-right-line2);
+        }
+
+        &-right3 {
+            width: 25%;
+            @include blocks-title-right(menu2-right-line3);
+        }
+    }
+
     .appetite-block,
     .pleasure-block,
     .delicacies-block {
@@ -57,23 +101,15 @@
 #appetite {
     color: rgb(198, 116, 18);
 
-    &-title {
-        //@include blocks-title(menu2-line1);
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
     }
 }
 
 #pleasure {
     color: rgb(165, 103, 153);
-
-    &-title {
-        //@include blocks-title(menu2-line2);
-    }
 }
 
 #delicacies {
     color: rgb(110, 76, 204);
-
-    &-title {
-        //@include blocks-title(menu2-line3);
-    }
 }

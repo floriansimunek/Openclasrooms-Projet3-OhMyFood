@@ -194,8 +194,6 @@
   background-image: url("../images/lines/menu1-right-line.PNG");
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -274,6 +272,93 @@
 #delicacies-title:hover .underline-block {
   width: 100%;
 }
+#appetite .title-container,
+#pleasure .title-container,
+#delicacies .title-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #appetite .title-container,
+#pleasure .title-container,
+#delicacies .title-container {
+    width: 100%;
+  }
+}
+#appetite .title-lines-left1,
+#pleasure .title-lines-left1,
+#delicacies .title-lines-left1 {
+  width: 25%;
+  background-image: url("../images/lines/menu2-left-line1.PNG");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#appetite .title-lines-left2,
+#pleasure .title-lines-left2,
+#delicacies .title-lines-left2 {
+  width: 25%;
+  background-image: url("../images/lines/menu2-left-line2.PNG");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#appetite .title-lines-left3,
+#pleasure .title-lines-left3,
+#delicacies .title-lines-left3 {
+  width: 25%;
+  background-image: url("../images/lines/menu2-left-line3.PNG");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#appetite .title-lines-right1,
+#pleasure .title-lines-right1,
+#delicacies .title-lines-right1 {
+  width: 25%;
+  background-image: url("../images/lines/menu2-right-line1.PNG");
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#appetite .title-lines-right2,
+#pleasure .title-lines-right2,
+#delicacies .title-lines-right2 {
+  width: 25%;
+  background-image: url("../images/lines/menu2-right-line2.PNG");
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#appetite .title-lines-right3,
+#pleasure .title-lines-right3,
+#delicacies .title-lines-right3 {
+  width: 25%;
+  background-image: url("../images/lines/menu2-right-line3.PNG");
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 #appetite .appetite-block,
 #appetite .pleasure-block,
 #appetite .delicacies-block,
@@ -301,12 +386,20 @@
 #appetite {
   color: #c67412;
 }
+@media screen and (max-width: 768px) {
+  #appetite {
+    font-size: 12px;
+  }
+}
+
 #pleasure {
   color: #a56799;
 }
+
 #delicacies {
   color: #6e4ccc;
 }
+
 /* menu3.html */
 #page-content3 .menu-title--in {
   background: linear-gradient(90deg, #2b58e6 0%, #1b91fa 100%);
