@@ -7,6 +7,10 @@ footer {
     width: 100%;
     justify-content: space-between;
 
+    @media screen and (min-width: 1280px) {
+        justify-content: space-around;
+    }
+
     #left-block,
     #right-block {
         color: $default-font-color;

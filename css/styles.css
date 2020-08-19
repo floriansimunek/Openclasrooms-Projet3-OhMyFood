@@ -632,6 +632,11 @@ footer {
   width: 100%;
   justify-content: space-between;
 }
+@media screen and (min-width: 1280px) {
+  footer {
+    justify-content: space-around;
+  }
+}
 footer #left-block,
 footer #right-block {
   color: #fdcc46;
