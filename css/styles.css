@@ -674,11 +674,17 @@ footer #right-block:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 25px;
+  width: 30%;
+  margin: 0 auto;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
   #app-content {
-    width: 30%;
-    margin: 0 auto;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #app-content {
+    width: 50%;
   }
 }
 #app-content .btn {
@@ -784,7 +790,7 @@ footer #right-block:hover {
 }
 @media screen and (min-width: 1280px) {
   #app-content .btn-block--2 .btn-menu {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 #app-content .btn-block--2 .btn-menu:hover {
@@ -804,7 +810,7 @@ footer #right-block:hover {
 }
 @media screen and (min-width: 1280px) {
   #app-content .btn-block--3 .btn-menu {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 #app-content .btn-block--3 .btn-menu:hover {
@@ -824,7 +830,7 @@ footer #right-block:hover {
 }
 @media screen and (min-width: 1280px) {
   #app-content .btn-block--4 .btn-menu {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 #app-content .btn-block--4 .btn-menu:hover {
