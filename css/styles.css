@@ -119,6 +119,30 @@
   }
 }
 
+#tostart .title-container,
+#tocontinue .title-container,
+#tofinish .title-container, #appetite .title-container,
+#pleasure .title-container,
+#delicacies .title-container, #prelude .title-container,
+#point-orgue .title-container,
+#mouvement-final .title-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #tostart .title-container,
+#tocontinue .title-container,
+#tofinish .title-container, #appetite .title-container,
+#pleasure .title-container,
+#delicacies .title-container, #prelude .title-container,
+#point-orgue .title-container,
+#mouvement-final .title-container {
+    width: 100%;
+  }
+}
+
 /* menu1.html */
 #page-content .menu-title--in {
   margin: 30px auto 50px;
@@ -189,21 +213,6 @@
 #point-orgue-title:hover .underline-block,
 #mouvement-final-title:hover .underline-block {
   width: 100%;
-}
-#prelude .title-container,
-#point-orgue .title-container,
-#mouvement-final .title-container {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 768px) {
-  #prelude .title-container,
-#point-orgue .title-container,
-#mouvement-final .title-container {
-    width: 100%;
-  }
 }
 #prelude .title-lines-left,
 #point-orgue .title-lines-left,
@@ -309,21 +318,6 @@
   width: 100%;
 }
 
-#appetite .title-container,
-#pleasure .title-container,
-#delicacies .title-container {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 768px) {
-  #appetite .title-container,
-#pleasure .title-container,
-#delicacies .title-container {
-    width: 100%;
-  }
-}
 #appetite .title-lines-left1,
 #pleasure .title-lines-left1,
 #delicacies .title-lines-left1 {
@@ -474,18 +468,29 @@
 #tofinish-title:hover .underline-block {
   width: 100%;
 }
-#tostart .tostart-block,
-#tostart .tocontinue-block,
-#tostart .tofinish-block,
-#tocontinue .tostart-block,
-#tocontinue .tocontinue-block,
-#tocontinue .tofinish-block,
-#tofinish .tostart-block,
-#tofinish .tocontinue-block,
-#tofinish .tofinish-block {
+#tostart .title-lines-left,
+#tocontinue .title-lines-left,
+#tofinish .title-lines-left {
+  background-image: url("../images/lines/menu3-left-line.PNG");
+  width: 25%;
   display: flex;
-  margin-top: 10px;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#tostart .title-lines-right,
+#tocontinue .title-lines-right,
+#tofinish .title-lines-right {
+  background-image: url("../images/lines/menu3-right-line.PNG");
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 #tostart .left-block,
 #tocontinue .left-block,
