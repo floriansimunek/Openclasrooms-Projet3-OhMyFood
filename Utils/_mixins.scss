@@ -63,7 +63,7 @@
 @mixin blocks-title-left($image-name) {
     $url:"../images/lines/#{$image-name}.PNG";
     background-image: url($url);
-
+    width: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,7 +76,7 @@
 @mixin blocks-title-right($image-name) {
     $url:"../images/lines/#{$image-name}.PNG";
     background-image: url($url);
-
+    width: 25%;
     display: flex;
     flex-direction: row;
     background-repeat: no-repeat;
@@ -90,4 +90,12 @@
     background: $btn-block--1-text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@mixin underline-block($color) {
+    height: 2px;
+    background-color: $color;
+    width: 0;
+    transition: width 0.5s;
+    display: block;
 }

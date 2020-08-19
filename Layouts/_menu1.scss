@@ -45,15 +45,9 @@
 
     &-title {
         @extend %title-screen-display;
-        width: 40%;
-        text-align: center;
 
         .underline-block {
-            height: 2px;
-            background-color: black;
-            width: 0;
-            transition: width 0.5s;
-            display: block;
+            @include underline-block(black);
         }
 
         &:hover .underline-block {
@@ -75,12 +69,10 @@
 
     .title-lines {
         &-left {
-            width: 25%;
             @include blocks-title-left(menu1-left-line);
         }
 
         &-right {
-            width: 25%;
             @include blocks-title-right(menu1-right-line);
         }
     }
@@ -89,9 +81,6 @@
     .pointorgue-block,
     .mouvementfinal-block {
         @extend %blocks-screen-display;
-        display: flex;
-        margin-top: 10px;
-        justify-content: space-between;
     }
 
     .left-block {

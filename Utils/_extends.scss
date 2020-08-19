@@ -28,6 +28,9 @@
 }
 
 %blocks-screen-display {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
 
     @media screen and (min-width: 1280px),
     (min-width: 1024px) {

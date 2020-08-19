@@ -42,6 +42,43 @@
   }
 }
 
+#esquisse .esquisse-block,
+#esquisse .oeuvre-block,
+#esquisse .art-block,
+#oeuvre .esquisse-block,
+#oeuvre .oeuvre-block,
+#oeuvre .art-block,
+#art .esquisse-block,
+#art .oeuvre-block,
+#art .art-block, #tostart .tostart-block,
+#tostart .tocontinue-block,
+#tostart .tofinish-block,
+#tocontinue .tostart-block,
+#tocontinue .tocontinue-block,
+#tocontinue .tofinish-block,
+#tofinish .tostart-block,
+#tofinish .tocontinue-block,
+#tofinish .tofinish-block, #appetite .appetite-block,
+#appetite .pleasure-block,
+#appetite .delicacies-block,
+#pleasure .appetite-block,
+#pleasure .pleasure-block,
+#pleasure .delicacies-block,
+#delicacies .appetite-block,
+#delicacies .pleasure-block,
+#delicacies .delicacies-block, #prelude .prelude-block,
+#prelude .pointorgue-block,
+#prelude .mouvementfinal-block,
+#point-orgue .prelude-block,
+#point-orgue .pointorgue-block,
+#point-orgue .mouvementfinal-block,
+#mouvement-final .prelude-block,
+#mouvement-final .pointorgue-block,
+#mouvement-final .mouvementfinal-block {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
 @media screen and (min-width: 1280px), (min-width: 1024px) {
   #esquisse .esquisse-block,
 #esquisse .oeuvre-block,
@@ -139,12 +176,6 @@
   }
 }
 
-#prelude-title,
-#point-orgue-title,
-#mouvement-final-title {
-  width: 40%;
-  text-align: center;
-}
 #prelude-title .underline-block,
 #point-orgue-title .underline-block,
 #mouvement-final-title .underline-block {
@@ -177,8 +208,8 @@
 #prelude .title-lines-left,
 #point-orgue .title-lines-left,
 #mouvement-final .title-lines-left {
-  width: 25%;
   background-image: url("../images/lines/menu1-left-line.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -190,26 +221,13 @@
 #prelude .title-lines-right,
 #point-orgue .title-lines-right,
 #mouvement-final .title-lines-right {
-  width: 25%;
   background-image: url("../images/lines/menu1-right-line.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
-#prelude .prelude-block,
-#prelude .pointorgue-block,
-#prelude .mouvementfinal-block,
-#point-orgue .prelude-block,
-#point-orgue .pointorgue-block,
-#point-orgue .mouvementfinal-block,
-#mouvement-final .prelude-block,
-#mouvement-final .pointorgue-block,
-#mouvement-final .mouvementfinal-block {
-  display: flex;
-  margin-top: 10px;
-  justify-content: space-between;
 }
 #prelude .left-block,
 #point-orgue .left-block,
@@ -258,20 +276,39 @@
   }
 }
 
-#appetite-title .underline-block,
-#pleasure-title .underline-block,
-#delicacies-title .underline-block {
+#appetite .underline-block {
   height: 2px;
-  background-color: black;
+  background-color: #C67412;
   width: 0;
   transition: width 0.5s;
   display: block;
 }
-#appetite-title:hover .underline-block,
-#pleasure-title:hover .underline-block,
-#delicacies-title:hover .underline-block {
+#appetite:hover .underline-block {
   width: 100%;
 }
+
+#pleasure .underline-block {
+  height: 2px;
+  background-color: #a56799;
+  width: 0;
+  transition: width 0.5s;
+  display: block;
+}
+#pleasure:hover .underline-block {
+  width: 100%;
+}
+
+#delicacies .underline-block {
+  height: 2px;
+  background-color: #6e4ccc;
+  width: 0;
+  transition: width 0.5s;
+  display: block;
+}
+#delicacies:hover .underline-block {
+  width: 100%;
+}
+
 #appetite .title-container,
 #pleasure .title-container,
 #delicacies .title-container {
@@ -290,8 +327,8 @@
 #appetite .title-lines-left1,
 #pleasure .title-lines-left1,
 #delicacies .title-lines-left1 {
-  width: 25%;
   background-image: url("../images/lines/menu2-left-line1.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -303,8 +340,8 @@
 #appetite .title-lines-left2,
 #pleasure .title-lines-left2,
 #delicacies .title-lines-left2 {
-  width: 25%;
   background-image: url("../images/lines/menu2-left-line2.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -316,8 +353,8 @@
 #appetite .title-lines-left3,
 #pleasure .title-lines-left3,
 #delicacies .title-lines-left3 {
-  width: 25%;
   background-image: url("../images/lines/menu2-left-line3.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -329,8 +366,8 @@
 #appetite .title-lines-right1,
 #pleasure .title-lines-right1,
 #delicacies .title-lines-right1 {
-  width: 25%;
   background-image: url("../images/lines/menu2-right-line1.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   background-repeat: no-repeat;
@@ -340,8 +377,8 @@
 #appetite .title-lines-right2,
 #pleasure .title-lines-right2,
 #delicacies .title-lines-right2 {
-  width: 25%;
   background-image: url("../images/lines/menu2-right-line2.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   background-repeat: no-repeat;
@@ -351,26 +388,13 @@
 #appetite .title-lines-right3,
 #pleasure .title-lines-right3,
 #delicacies .title-lines-right3 {
-  width: 25%;
   background-image: url("../images/lines/menu2-right-line3.PNG");
+  width: 25%;
   display: flex;
   flex-direction: row;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
-#appetite .appetite-block,
-#appetite .pleasure-block,
-#appetite .delicacies-block,
-#pleasure .appetite-block,
-#pleasure .pleasure-block,
-#pleasure .delicacies-block,
-#delicacies .appetite-block,
-#delicacies .pleasure-block,
-#delicacies .delicacies-block {
-  display: flex;
-  margin-top: 10px;
-  justify-content: space-between;
 }
 #appetite .left-block,
 #pleasure .left-block,
