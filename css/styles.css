@@ -674,17 +674,31 @@ footer #right-block:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 25px;
-  width: 30%;
   margin: 0 auto;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 600px) {
   #app-content {
-    width: 40%;
+    width: 80%;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 600px) {
   #app-content {
     width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #app-content {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #app-content {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #app-content {
+    width: 30%;
   }
 }
 #app-content .btn {
