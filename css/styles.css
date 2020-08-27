@@ -664,6 +664,7 @@ footer #right-block:hover {
   padding: 25px;
   margin: 0 auto;
   width: 80%;
+  margin-bottom: 100px;
 }
 @media screen and (min-width: 600px) {
   #app-content {
@@ -696,6 +697,16 @@ footer #right-block:hover {
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  #app-content .btn {
+    min-height: 70vh;
+  }
+}
+@media screen and (min-width: 992px) and (orientation: landscape) {
+  #app-content .btn {
+    min-height: 32vh;
+  }
 }
 #app-content .btn-menu h2 {
   font-weight: 400;
