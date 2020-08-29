@@ -604,11 +604,15 @@ header {
 header a {
   display: flex;
   justify-content: center;
-  width: 100%;
+  text-decoration: none;
 }
-header a picture #logo {
-  width: 300px;
-  margin: 10px auto;
+header a .title {
+  color: #fdcb46;
+  text-decoration: none;
+  font-size: 64px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+  letter-spacing: -3px;
 }
 
 /* FOOTER */
